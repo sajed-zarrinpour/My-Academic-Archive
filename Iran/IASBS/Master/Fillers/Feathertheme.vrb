@@ -1,0 +1,16 @@
+\frametitle{programming fillers}\framesubtitle {foo bar}
+%-------------------------------------------------------
+\begin{block}{foo bar as metasyntactic variables : C++}
+\begin{lstlisting}
+#include <stdio.h>
+
+int main() {
+    const char *foo = "Hello";
+    const char *bar = "World!";
+    fprintf(stdout, "%s %s\n", foo, bar);
+
+    return 0;
+}
+\end{lstlisting}
+\end{block}
+
