@@ -20,6 +20,7 @@
 		\fi
 	\end{figure}
 }
+
 % RU style for Beamer
 % The title of the presentation:
 %  - first a short version which is visible at the bottom of each slide;
@@ -28,7 +29,7 @@
   Make Use of Neural Networks for Solving Partial Differential Equations\\(The Deep Ritz Method)}
 
 % Optional: a subtitle to be dispalyed on the title slide
-\subtitle{Institute for Advanced Studies in Basic Sciences}
+%\subtitle{Institute for Advanced Studies in Basic Sciences}
 
 % The author(s) of the presentation:
 %  - again first a short version to be displayed at the bottom;
@@ -36,14 +37,13 @@
 \author[Sajed N. Zarrinpour]{
   Sajed N. Zarrinpour \\\medskip
   {\small \url{sa.zarrinpour@iasbs.ac.ir}} \\ 
-  {\small \url{http://www.iasbs.ac.ir/~sa.zarrinpour}}}
+  {\small \url{}}}
 
 % The institute:
 %  - to start the name of the university as displayed on the top of each slide
 %    this can be adjusted such that you can also create a Dutch version
 %  - next the institute information as displayed on the title slide
-\institute[Institute for Advanced Studies in Basic Sciences]{
-  Math Department -- Numerical Analysis \\
+\institute[IASBS]{
   Institute for Advanced Studies in Basic Sciences}
 
 % Add a date and possibly the name of the event to the slides
@@ -72,16 +72,20 @@
 
 \begin{frame}
   \frametitle{Introduction}
-	Numerical Methods!
-  \begin{itemize}
-    \item <1- > Why?
-    \item <2- > Why Not?
-    \item <3- > Cheat?
-    \item <4- > Lets get into it!
-  \end{itemize}
-\end{frame}
 
-\section{Background information}
+    \textbf{"Lost time is never found again."}\centering\\
+  	\em - Benjamin Franklin.
+
+	
+\end{frame}
+\begin{frame}
+	\frametitle{Introduction}
+
+	\textbf{"The key is in not spending time, but in investing it"}\centering\\
+	\em - Stephen R. Covey. 
+	
+\end{frame}
+%\section{Background information}
 
 \begin{frame}
   \frametitle{Finite Element Method}
@@ -98,6 +102,7 @@
 
 \end{frame}
 
+\section{Problem Definition}
 \begin{frame}
 	\frametitle{Finite Element Method}	
 	\begin{block}{Poisson Equation on Unit Square - Weak Form}		
@@ -110,12 +115,12 @@
 \begin{frame}
 	\frametitle{Finite Element Method}
 	
-	\textbf{Quite Complex eh?}\centering\\
+	\textbf{Quite Complex, eh?}\centering\\
 	\textit{Lets cheat!}\centering\\
 	
 \end{frame}
 
-\section{Problem Definition}
+
 \begin{frame}
 	\frametitle{Deep Ritz Method}
 	
@@ -125,18 +130,14 @@
 		$F(x) = \sum_{i=1}^{N} v_i \phi(w_{i}^{T}x + b_i)$
 		as an approximate realization of the function f; that is,
 		$|F(x)-f(x)| < \epsilon$
-		for all $x\in I_m$. 		
+		for all $x\in I_m$. 
+		
+		%For any Lebesgue-integrable function $\displaystyle f:\mathbb {R} ^{n}\rightarrow \mathbb {R} $ and any %$\epsilon >0$ , there exists a fully-connected ReLU network $\mathcal {A}$ with width $ d_{m}\leq {n+4}$, %such that the function $ F_{\mathcal {A}$ represented by this network satisfies	:
+		%$\int _{\R}^{} \|f(x) - F_{A}(A)\| dx < \epsilon $
 	\end{block}	
 \end{frame}
 
-\begin{frame}
-	\frametitle{Deep Ritz Method}
-	
-	\begin{block}{Poisson Equation - Neural Networks Form}
-		\fitimage[Autoscaling image]{DRM.png}
-	\end{block}	
 
-\end{frame}
 
 \begin{frame}
 	\frametitle{Deep Ritz Method}
@@ -149,7 +150,14 @@
 	\end{block}	
 \end{frame}
 
-
+\begin{frame}
+	\frametitle{Deep Ritz Method}
+	
+	\begin{block}{Poisson Equation - Neural Networks Form}
+		\fitimage[Autoscaling image]{DRM.png}
+	\end{block}	
+	
+\end{frame}
 
 
 \section{Results}
@@ -168,8 +176,8 @@
 \begin{frame}
 	\frametitle{Conclusion}
 	\begin{itemize}
-		\item <1- > calculation of the basis
-		\item <2- > better accuracy
+		\item <1- > By pass the calculation of the basis
+		\item <2- > Better accuracy in less cost
 	\end{itemize}
 \end{frame}
 
