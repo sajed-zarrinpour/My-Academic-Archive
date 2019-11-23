@@ -153,7 +153,7 @@
 \begin{figure}[hbt!]
 	\advance\leftskip-3cm
 	\vspace*{-3cm}
-	\includegraphics[scale=0.3]{#1}
+	\includegraphics[scale=0.02]{#1}
 	\hfill
 \end{figure}
 } % Defines the \profilepic{\name} command to set profile picture

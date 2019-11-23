@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.4.18)  16 NOV 2019 12:51
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.4.18)  18 NOV 2019 14:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -777,182 +777,6 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\begingroup' on input line 40.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\catcode' on input line 40.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\active' on input line 40.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 40.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\csname\endcsname' on input line 40.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\catcode' on input line 40.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\active' on input line 40.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 40.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\csname\endcsname' on input line 40.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 40.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\%' on input line 40.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\catcode' on input line 40.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\active' on input line 40.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 40.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\csname\endcsname' on input line 40.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 40.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\#' on input line 40.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\catcode' on input line 40.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 40.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\csname\endcsname' on input line 40.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 40.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\&' on input line 40.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 40.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\textunderscore' on input line 40.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 40.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\_' on input line 40.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\catcode' on input line 40.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\active' on input line 40.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 40.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\csname\endcsname' on input line 40.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 40.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\csname\endcsname' on input line 40.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 40.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\~' on input line 40.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 40.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\textasciitilde' on input line 40.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 40.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 40.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 40.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\csname\endcsname' on input line 40.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 40.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\Hy@tempa' on input line 40.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 40.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\Hy@tempa' on input line 40.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\\' on input line 40.
 
 
@@ -1274,7 +1098,7 @@ Dictionary: translator-numbers-dictionary, Language: English
 tionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 ) (./main.nav)
-Overfull \vbox (2.02599pt too high) detected at line 55
+Overfull \vbox (1.51949pt too high) detected at line 55
  []
 
 File: logo_mini.png Graphic file (type bmp)
@@ -1297,7 +1121,7 @@ LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <5> not available
 File: logo_bg.png Graphic file (type bmp)
 <logo_bg.png>
 
-Overfull \vbox (2.02599pt too high) has occurred while \output is active []
+Overfull \vbox (1.51949pt too high) has occurred while \output is active []
 
 File: logo_mini.png Graphic file (type bmp)
 <logo_mini.png>
@@ -1308,7 +1132,7 @@ File: logo_mini.png Graphic file (type bmp)
 File: logo_bg.png Graphic file (type bmp)
 <logo_bg.png>
 
-Overfull \vbox (2.02599pt too high) has occurred while \output is active []
+Overfull \vbox (1.51949pt too high) has occurred while \output is active []
 
 File: logo_mini.png Graphic file (type bmp)
 <logo_mini.png>
@@ -1321,7 +1145,7 @@ LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10.95> not available
 File: logo_bg.png Graphic file (type bmp)
 <logo_bg.png>
 
-Overfull \vbox (2.02599pt too high) has occurred while \output is active []
+Overfull \vbox (1.51949pt too high) has occurred while \output is active []
 
 File: logo_mini.png Graphic file (type bmp)
 <logo_mini.png>
@@ -1329,10 +1153,14 @@ File: logo_mini.png Graphic file (type bmp)
 [3
 
 ]
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <8> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 96.
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <6> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 96.
 File: logo_bg.png Graphic file (type bmp)
 <logo_bg.png>
 
-Overfull \vbox (2.02599pt too high) has occurred while \output is active []
+Overfull \vbox (1.51949pt too high) has occurred while \output is active []
 
 File: logo_mini.png Graphic file (type bmp)
 <logo_mini.png>
@@ -1340,14 +1168,10 @@ File: logo_mini.png Graphic file (type bmp)
 [4
 
 ]
-LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <8> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 103.
-LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <6> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 103.
 File: logo_bg.png Graphic file (type bmp)
 <logo_bg.png>
 
-Overfull \vbox (2.02599pt too high) has occurred while \output is active []
+Overfull \vbox (1.51949pt too high) has occurred while \output is active []
 
 File: logo_mini.png Graphic file (type bmp)
 <logo_mini.png>
@@ -1358,7 +1182,7 @@ File: logo_mini.png Graphic file (type bmp)
 File: logo_bg.png Graphic file (type bmp)
 <logo_bg.png>
 
-Overfull \vbox (2.02599pt too high) has occurred while \output is active []
+Overfull \vbox (1.51949pt too high) has occurred while \output is active []
 
 File: logo_mini.png Graphic file (type bmp)
 <logo_mini.png>
@@ -1369,7 +1193,7 @@ File: logo_mini.png Graphic file (type bmp)
 File: logo_bg.png Graphic file (type bmp)
 <logo_bg.png>
 
-Overfull \vbox (2.02599pt too high) has occurred while \output is active []
+Overfull \vbox (1.51949pt too high) has occurred while \output is active []
 
 File: logo_mini.png Graphic file (type bmp)
 <logo_mini.png>
@@ -1380,7 +1204,7 @@ File: logo_mini.png Graphic file (type bmp)
 File: logo_bg.png Graphic file (type bmp)
 <logo_bg.png>
 
-Overfull \vbox (2.02599pt too high) has occurred while \output is active []
+Overfull \vbox (1.51949pt too high) has occurred while \output is active []
 
 File: logo_mini.png Graphic file (type bmp)
 <logo_mini.png>
@@ -1388,10 +1212,16 @@ File: logo_mini.png Graphic file (type bmp)
 [8
 
 ]
+File: DRM.png Graphic file (type bmp)
+<DRM.png>
+
+Overfull \vbox (29.30283pt too high) detected at line 153
+ []
+
 File: logo_bg.png Graphic file (type bmp)
 <logo_bg.png>
 
-Overfull \vbox (2.02599pt too high) has occurred while \output is active []
+Overfull \vbox (1.51949pt too high) has occurred while \output is active []
 
 File: logo_mini.png Graphic file (type bmp)
 <logo_mini.png>
@@ -1399,16 +1229,12 @@ File: logo_mini.png Graphic file (type bmp)
 [9
 
 ]
-File: DRM.png Graphic file (type bmp)
-<DRM.png>
-
-Overfull \vbox (29.3024pt too high) detected at line 160
- []
-
+File: DRMvsFDM.png Graphic file (type bmp)
+<DRMvsFDM.png>
 File: logo_bg.png Graphic file (type bmp)
 <logo_bg.png>
 
-Overfull \vbox (2.02599pt too high) has occurred while \output is active []
+Overfull \vbox (1.51949pt too high) has occurred while \output is active []
 
 File: logo_mini.png Graphic file (type bmp)
 <logo_mini.png>
@@ -1416,12 +1242,10 @@ File: logo_mini.png Graphic file (type bmp)
 [10
 
 ]
-File: DRMvsFDM.png Graphic file (type bmp)
-<DRMvsFDM.png>
 File: logo_bg.png Graphic file (type bmp)
 <logo_bg.png>
 
-Overfull \vbox (2.02599pt too high) has occurred while \output is active []
+Overfull \vbox (1.51949pt too high) has occurred while \output is active []
 
 File: logo_mini.png Graphic file (type bmp)
 <logo_mini.png>
@@ -1432,7 +1256,7 @@ File: logo_mini.png Graphic file (type bmp)
 File: logo_bg.png Graphic file (type bmp)
 <logo_bg.png>
 
-Overfull \vbox (2.02599pt too high) has occurred while \output is active []
+Overfull \vbox (1.51949pt too high) has occurred while \output is active []
 
 File: logo_mini.png Graphic file (type bmp)
 <logo_mini.png>
@@ -1443,7 +1267,7 @@ File: logo_mini.png Graphic file (type bmp)
 File: logo_bg.png Graphic file (type bmp)
 <logo_bg.png>
 
-Overfull \vbox (2.02599pt too high) has occurred while \output is active []
+Overfull \vbox (1.51949pt too high) has occurred while \output is active []
 
 File: logo_mini.png Graphic file (type bmp)
 <logo_mini.png>
@@ -1454,7 +1278,7 @@ File: logo_mini.png Graphic file (type bmp)
 File: logo_bg.png Graphic file (type bmp)
 <logo_bg.png>
 
-Overfull \vbox (2.02599pt too high) has occurred while \output is active []
+Overfull \vbox (1.51949pt too high) has occurred while \output is active []
 
 File: logo_mini.png Graphic file (type bmp)
 <logo_mini.png>
@@ -1465,7 +1289,7 @@ File: logo_mini.png Graphic file (type bmp)
 File: logo_bg.png Graphic file (type bmp)
 <logo_bg.png>
 
-Overfull \vbox (2.02599pt too high) has occurred while \output is active []
+Overfull \vbox (1.51949pt too high) has occurred while \output is active []
 
 File: logo_mini.png Graphic file (type bmp)
 <logo_mini.png>
@@ -1482,19 +1306,19 @@ File: logo_mini.png Graphic file (type bmp)
 \tf@snm=\write8
 \openout8 = `main.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 197.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 197.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 192.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 192.
  (./main.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 197.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 197.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 192.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 192.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 75F3576C420417E78E0C39291D30D445.
+(rerunfilecheck)             Checksum: 0E9FAE42BC1C4A482074A3EA588A2253.
  ) 
 Here is how much of TeX's memory you used:
- 21589 strings out of 492970
- 389998 string characters out of 6133938
- 470763 words of memory out of 5000000
- 25122 multiletter control sequences out of 15000+600000
+ 21584 strings out of 492970
+ 389958 string characters out of 6133938
+ 470735 words of memory out of 5000000
+ 25117 multiletter control sequences out of 15000+600000
  11409 words of font info for 63 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  56i,19n,55p,771b,708s stack positions out of 5000i,500n,10000p,200000b,80000s

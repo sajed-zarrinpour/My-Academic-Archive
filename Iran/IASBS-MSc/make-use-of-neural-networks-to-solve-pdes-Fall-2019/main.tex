@@ -25,8 +25,8 @@
 % The title of the presentation:
 %  - first a short version which is visible at the bottom of each slide;
 %  - second the full title shown on the title slide;
-\title[Make Use of NN for Solving PDEs]{
-  Make Use of Neural Networks for Solving Partial Differential Equations\\(The Deep Ritz Method)}
+\title[On Solving PDEs with NN]{
+  On Solving Partial Differential Equations with Neural Networks\\(The Deep Ritz Method)}
 
 % Optional: a subtitle to be dispalyed on the title slide
 %\subtitle{Institute for Advanced Studies in Basic Sciences}
@@ -36,8 +36,8 @@
 %  - next the full list of authors, which may include contact information;
 \author[Sajed N. Zarrinpour]{
   Sajed N. Zarrinpour \\\medskip
-  {\small \url{sa.zarrinpour@iasbs.ac.ir}} \\ 
-  {\small \url{}}}
+  {\small Dr Khadijeh Nedaiasl, Dr Parvin Razaghi} \\ 
+  {\small \url{sa.zarrinpour@iasbs.ac.ir}}}
 
 % The institute:
 %  - to start the name of the university as displayed on the top of each slide
@@ -70,14 +70,7 @@
 % they will not be visible.
 \section{Introduction}
 
-\begin{frame}
-  \frametitle{Introduction}
 
-    \textbf{"Lost time is never found again."}\centering\\
-  	\em - Benjamin Franklin.
-
-	
-\end{frame}
 \begin{frame}
 	\frametitle{Introduction}
 
@@ -93,7 +86,7 @@
   \begin{block}{Poisson Equation on Unit Square - Strong Form}
     \begin{equation*}
     	\begin{cases}
-    	 -\Delta u = f (x)\hspace{50pt} ,on \Omega = [0\times 1] \times [0\times 1]  
+    	 -\Delta u = f (x)\hspace{50pt} ,on \Omega = [0\times 1] \times [0\times 1] - [0, 1) 
     	 \\
     	 u = 0 \hspace{80pt} ,on \partial \Omega
     	\end{cases}	
@@ -176,8 +169,9 @@
 \begin{frame}
 	\frametitle{Conclusion}
 	\begin{itemize}
-		\item <1- > By pass the calculation of the basis
+		\item <1- > Bypass the calculation of the basis
 		\item <2- > Better accuracy in less cost
+		\item <3- > Domain and Problem Agnostic
 	\end{itemize}
 \end{frame}
 
@@ -186,12 +180,13 @@
 \textbf{"Ask, and it shall be given you!"}\centering\\
 \em Matthew 7:7
 \end{frame}
-\section{References}
+%\section{References}
 \begin{frame}
 	\begin{itemize}
 		\item \href{https://arxiv.org/pdf/1710.00211.pdf}{The Deep Ritz Method}
 		\item \href{https://en.wikipedia.org/wiki/Universal_approximation_theorem}{Universal Approximation Theorem}
-	\end{itemize}
+		\item \href{https://www.actitime.com/time-management/best-time-quotes/}{Quotes about the time}	
+\end{itemize}
 \end{frame}
 
 \end{document}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.4.18)  27 AUG 2019 17:43
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.4.18)  17 NOV 2019 17:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -232,8 +232,8 @@ Overfull \hbox (8.02158pt too wide) in paragraph at lines 47--47
 Package marginnote Info: xpos seems to be 118.01144pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 47.
 
-Overfull \hbox (6.59904pt too wide) in paragraph at lines 47--51
-\TU/lmr/m/n/12 Numerical Method for Solving PDEs with Uncertainty using Neural-
+Overfull \hbox (8.87904pt too wide) in paragraph at lines 47--51
+\TU/lmr/m/n/12 Numerical Method for Solving PDEs with Uncertainty Using Neural-
 Network 
  []
 
@@ -255,38 +255,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--63
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
-
- []
-
-
-Overfull \hbox (19.61867pt too wide) in paragraph at lines 105--120
+Overfull \hbox (19.61867pt too wide) in paragraph at lines 100--115
 [][] 
  []
 
 [1
 
-]
-File: images/nedaiasl.png Graphic file (type bmp)
-<images/nedaiasl.png>
-
-Underfull \hbox (badness 10000) in paragraph at lines 142--155
-
- []
-
-[2] (./main.aux) ) 
+] [2] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 2299 strings out of 492970
- 34236 string characters out of 6133938
- 111675 words of memory out of 5000000
- 6272 multiletter control sequences out of 15000+600000
+ 2295 strings out of 492970
+ 34154 string characters out of 6133938
+ 111698 words of memory out of 5000000
+ 6269 multiletter control sequences out of 15000+600000
  6432 words of font info for 30 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 30i,9n,33p,221b,319s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,9n,33p,221b,250s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on main.pdf (2 pages).
