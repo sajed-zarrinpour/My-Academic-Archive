@@ -1,0 +1,401 @@
+\newcommand{\noopsort}[1]{} \newcommand{\printfirst}[2]{#1}
+  \newcommand{\singleletter}[1]{#1} \newcommand{\switchargs}[2]{#2#1}
+\begin{thebibliography}{10}
+
+\bibitem{khatam2015vivo}
+Hamed Khatam, Gregory~P Reece, Michelle~C Fingeret, Mia~K Markey, and
+  Krishnaswamy Ravi-Chandar.
+\newblock In-vivo quantification of human breast deformation associated with
+  the position change from supine to upright.
+\newblock {\em Medical engineering \& physics}, 37(1):13--22, 2015.
+
+\bibitem{tanner2002comparison}
+Christine Tanner, Andreas Degenhard, Julia~Anne Schnabel, Andrew~D
+  Castellano-Smith, Carmel Hayes, Luke~I Sonoda, Martin~O Leach, D~Rodney Hose,
+  Derek~LG Hill, and David~John Hawkes.
+\newblock Comparison of biomechanical breast models: A case study.
+\newblock In {\em Medical Imaging 2002: Image Processing}, volume 4684, pages
+  1807--1818. International Society for Optics and Photonics, 2002.
+
+\bibitem{han2011development}
+Lianghao Han, John~H Hipwell, Christine Tanner, Zeike Taylor, Thomy
+  Mertzanidou, Jorge Cardoso, Sebastien Ourselin, and David~J Hawkes.
+\newblock Development of patient-specific biomechanical models for predicting
+  large breast deformation.
+\newblock {\em Physics in Medicine \& Biology}, 57(2):455, 2011.
+
+\bibitem{azar2002methods}
+Fred~S Azar, Dimitris~N Metaxas, and Mitchell~D Schnall.
+\newblock Methods for modeling and predicting mechanical deformations of the
+  breast under external perturbations.
+\newblock {\em Medical image analysis}, 6(1):1--27, 2002.
+
+\bibitem{azar2001deformable}
+Fred~S Azar, Dimitris~N Metaxas, and Mitchell~D Schnall.
+\newblock A deformable finite element model of the breast for predicting
+  mechanical deformations under external perturbations.
+\newblock {\em Academic Radiology}, 8(10):965--975, 2001.
+
+\bibitem{del2008finite}
+A~P{\'e}rez Del~Palomar, B~Calvo, J~Herrero, J~L{\'o}pez, and M~Doblar{\'e}.
+\newblock A finite element model to accurately predict real deformations of the
+  breast.
+\newblock {\em Medical engineering \& physics}, 30(9):1089--1097, 2008.
+
+\bibitem{martinez2017finite}
+Francisco Mart{\'\i}nez-Mart{\'\i}nez, Mar{\'\i}a~J Rup{\'e}rez-Moreno,
+  Marcelino Mart{\'\i}nez-Sober, JA~Solves-Llorens, Delia Lorente,
+  AJ~Serrano-L{\'o}pez, Sandra Mart{\'\i}nez-Sanchis, C~Monserrat, and
+  Jos{\'e}~David Mart{\'\i}n-Guerrero.
+\newblock A finite element-based machine learning approach for modeling the
+  mechanical behavior of the breast tissues under compression in real-time.
+\newblock {\em Computers in biology and medicine}, 90:116--124, 2017.
+
+\bibitem{geneva2020modeling}
+Nicholas Geneva and Nicholas Zabaras.
+\newblock Modeling the dynamics of pde systems with physics-constrained deep
+  auto-regressive networks.
+\newblock {\em Journal of Computational Physics}, 403:109056, 2020.
+
+\bibitem{smaoui2004modelling}
+Nejib Smaoui and Suad Al-Enezi.
+\newblock Modelling the dynamics of nonlinear partial differential equations
+  using neural networks.
+\newblock {\em Journal of Computational and Applied Mathematics},
+  170(1):27--58, 2004.
+
+\bibitem{lagaris2000neural}
+Isaac~E Lagaris, Aristidis~C Likas, and Dimitris~G Papageorgiou.
+\newblock Neural-network methods for boundary value problems with irregular
+  boundaries.
+\newblock {\em IEEE Transactions on Neural Networks}, 11(5):1041--1049, 2000.
+
+\bibitem{beck2019machine}
+Christian Beck, E~Weinan, and Arnulf Jentzen.
+\newblock Machine learning approximation algorithms for high-dimensional fully
+  nonlinear partial differential equations and second-order backward stochastic
+  differential equations.
+\newblock {\em Journal of Nonlinear Science}, 29(4):1563--1619, 2019.
+
+\bibitem{zhang2019quantifying}
+Dongkun Zhang, Lu~Lu, Ling Guo, and George~Em Karniadakis.
+\newblock Quantifying total uncertainty in physics-informed neural networks for
+  solving forward and inverse stochastic problems.
+\newblock {\em Journal of Computational Physics}, 397:108850, 2019.
+
+\bibitem{parisi2003solving}
+Daniel~R Parisi, Mar{\i}́a~C Mariani, and Miguel~A Laborde.
+\newblock Solving differential equations with unsupervised neural networks.
+\newblock {\em Chemical Engineering and Processing: Process Intensification},
+  42(8-9):715--721, 2003.
+
+\bibitem{stavroulakis1999partial}
+Ioannis~P Stavroulakis and Stepan~A Tersian.
+\newblock {\em Partial differential equations: An introduction with Mathematica
+  and MAPLE}.
+\newblock World Scientific Publishing Company, 1999.
+
+\bibitem{UQIntro_Sullivan}
+T.~J. Sullivan.
+\newblock Introduction to uncertainty quantification.
+\newblock 2015.
+
+\bibitem{mcculloch1943logical}
+Warren~S McCulloch and Walter Pitts.
+\newblock A logical calculus of the ideas immanent in nervous activity.
+\newblock {\em The bulletin of mathematical biophysics}, 5(4):115--133, 1943.
+
+\bibitem{hebb1949organization}
+Donald~O Hebb.
+\newblock {\em The organization of behavior}.
+\newblock na, 1949.
+
+\bibitem{schmidhuber2015deep}
+J{\"u}rgen Schmidhuber.
+\newblock Deep learning in neural networks: An overview.
+\newblock {\em Neural networks}, 61:85--117, 2015.
+
+\bibitem{ivakhnenko1973cybernetic}
+Alekseui~Grigorevich Ivakhnenko and Valentin~Grigor'evich Lapa.
+\newblock {\em Cybernetic predicting devices}.
+\newblock CCM Information Corporation, 1973.
+
+\bibitem{ivakhnenko1967cybernetics}
+Alekse{\u\i} Ivakhnenko.
+\newblock Cybernetics and forecasting techniques.
+
+\bibitem{dreyfus1990artificial}
+Stuart~E Dreyfus.
+\newblock Artificial neural networks, back propagation, and the kelley-bryson
+  gradient procedure.
+\newblock {\em Journal of guidance, control, and dynamics}, 13(5):926--928,
+  1990.
+
+\bibitem{mizutani2000derivation}
+Eiji Mizutani, Stuart~E Dreyfus, and Kenichi Nishio.
+\newblock On derivation of mlp backpropagation from the kelley-bryson
+  optimal-control gradient formula and its application.
+\newblock In {\em Proceedings of the IEEE-INNS-ENNS International Joint
+  Conference on Neural Networks. IJCNN 2000. Neural Computing: New Challenges
+  and Perspectives for the New Millennium}, volume~2, pages 167--172. IEEE,
+  2000.
+
+\bibitem{kelley1960gradient}
+Henry~J Kelley.
+\newblock Gradient theory of optimal flight paths.
+\newblock {\em Ars Journal}, 30(10):947--954, 1960.
+
+\bibitem{bryson1961gradient}
+Arthur~E Bryson.
+\newblock A gradient method for optimizing multi-stage allocation processes.
+\newblock In {\em Proc. Harvard Univ. Symposium on digital computers and their
+  applications}, volume~72, 1961.
+
+\bibitem{linnainmaa1970representation}
+Seppo Linnainmaa.
+\newblock The representation of the cumulative rounding error of an algorithm
+  as a taylor expansion of the local rounding errors.
+\newblock {\em Master's Thesis (in Finnish), Univ. Helsinki}, pages 6--7, 1970.
+
+\bibitem{linnainmaa1976taylor}
+Seppo Linnainmaa.
+\newblock Taylor expansion of the accumulated rounding error.
+\newblock {\em BIT Numerical Mathematics}, 16(2):146--160, 1976.
+
+\bibitem{smolensky1986information}
+Paul Smolensky.
+\newblock Information processing in dynamical systems: Foundations of harmony
+  theory.
+\newblock Technical report, Colorado Univ at Boulder Dept of Computer Science,
+  1986.
+
+\bibitem{le2013building}
+Quoc~V Le.
+\newblock Building high-level features using large scale unsupervised learning.
+\newblock In {\em 2013 IEEE international conference on acoustics, speech and
+  signal processing}, pages 8595--8598. IEEE, 2013.
+
+\bibitem{MLDict}
+Bill Wilson.
+\newblock The machine learning dictionary:
+  http://www.cse.unsw.edu.au/~billw/dictionaries/mldict.html.
+\newblock 1998 - 2012.
+
+\bibitem{weinan2018deep}
+E~Weinan and Bing Yu.
+\newblock The deep ritz method: a deep learning-based numerical algorithm for
+  solving variational problems.
+\newblock {\em Communications in Mathematics and Statistics}, 6(1):1--12, 2018.
+
+\bibitem{wang2019prediction}
+Min Wang, Siu~Wun Cheung, Eric~T Chung, Yalchin Efendiev, Wing~Tat Leung, and
+  Yating Wang.
+\newblock Prediction of discretization of gmsfem using deep learning.
+\newblock {\em Mathematics}, 7(5):412, 2019.
+
+\bibitem{raissi2017physics}
+Maziar Raissi, Paris Perdikaris, and George~Em Karniadakis.
+\newblock Physics informed deep learning (part ii): Data-driven discovery of
+  nonlinear partial differential equations. arxiv.
+\newblock {\em arXiv preprint arXiv:1711.10561}, 2017.
+
+\bibitem{Base_paper}
+Yuehaw Khoo, Jianfeng Lu, and L.~I.~U. Ying.
+\newblock Solving pde problems with uncertainty using neural-networks.
+\newblock 2018.
+
+\bibitem{raissi2018deep}
+Maziar Raissi.
+\newblock Deep hidden physics models: Deep learning of nonlinear partial
+  differential equations.
+\newblock {\em The Journal of Machine Learning Research}, 19(1):932--955, 2018.
+
+\bibitem{khoo2019solving}
+Yuehaw Khoo, Jianfeng Lu, and Lexing Ying.
+\newblock Solving for high-dimensional committor functions using artificial
+  neural networks.
+\newblock {\em Research in the Mathematical Sciences}, 6(1):1, 2019.
+
+\bibitem{lagaris1998artificial}
+Isaac~E Lagaris, Aristidis Likas, and Dimitrios~I Fotiadis.
+\newblock Artificial neural networks for solving ordinary and partial
+  differential equations.
+\newblock {\em IEEE transactions on neural networks}, 9(5):987--1000, 1998.
+
+\bibitem{long2017pde}
+Zichao Long, Yiping Lu, Xianzhong Ma, and Bin Dong.
+\newblock Pde-net: Learning pdes from data.
+\newblock {\em arXiv preprint arXiv:1710.09668}, 2017.
+
+\bibitem{rudd2015constrained}
+Keith Rudd and Silvia Ferrari.
+\newblock A constrained integration (cint) approach to solving partial
+  differential equations using artificial neural networks.
+\newblock {\em Neurocomputing}, 155:277--285, 2015.
+
+\bibitem{han2018solving}
+Jiequn Han, Arnulf Jentzen, and E~Weinan.
+\newblock Solving high-dimensional partial differential equations using deep
+  learning.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  115(34):8505--8510, 2018.
+
+\bibitem{forsythe1960finite}
+George~E Forsythe and Wolfgang~R Wasow.
+\newblock Finite difference methods.
+\newblock {\em Partial Differential}, 1960.
+
+\bibitem{smith1985numerical}
+Gordon~D Smith, Gordon~D Smith, and Gordon Dennis~Smith Smith.
+\newblock {\em Numerical solution of partial differential equations: finite
+  difference methods}.
+\newblock Oxford university press, 1985.
+
+\bibitem{morton2005numerical}
+Keith~W Morton and David~Francis Mayers.
+\newblock {\em Numerical solution of partial differential equations: an
+  introduction}.
+\newblock Cambridge university press, 2005.
+
+\bibitem{suli2012lecture}
+Endre S{\"u}li.
+\newblock Lecture notes on finite element methods for partial differential
+  equations.
+\newblock {\em Mathematical Institute, University of Oxford}, 2012.
+
+\bibitem{johnson2012numerical}
+Claes Johnson.
+\newblock {\em Numerical solution of partial differential equations by the
+  finite element method}.
+\newblock Courier Corporation, 2012.
+
+\bibitem{zienkiewicz1977finite}
+Olgierd~Cecil Zienkiewicz, Robert~Leroy Taylor, Perumal Nithiarasu, and JZ~Zhu.
+\newblock {\em The finite element method}, volume~3.
+\newblock McGraw-hill London, 1977.
+
+\bibitem{cook2007concepts}
+Robert~D Cook et~al.
+\newblock {\em Concepts and applications of finite element analysis}.
+\newblock John wiley \& sons, 2007.
+
+\bibitem{dahmen1997multiscale}
+Wolfgang Dahmen, Andrew Kurdila, and Peter Oswald.
+\newblock {\em Multiscale wavelet methods for partial differential equations}.
+\newblock Elsevier, 1997.
+
+\bibitem{lepik2005numerical}
+{\"U}lo Lepik.
+\newblock Numerical solution of differential equations using haar wavelets.
+\newblock {\em Mathematics and computers in simulation}, 68(2):127--143, 2005.
+
+\bibitem{moukalled2016finite}
+Fadl Moukalled, L~Mangani, Marwan Darwish, et~al.
+\newblock {\em The finite volume method in computational fluid dynamics},
+  volume 113.
+\newblock Springer, 2016.
+
+\bibitem{leveque2002finite}
+Randall~J LeVeque et~al.
+\newblock {\em Finite volume methods for hyperbolic problems}, volume~31.
+\newblock Cambridge university press, 2002.
+
+\bibitem{liu2003smoothed}
+Gui-Rong Liu and Moubin~B Liu.
+\newblock {\em Smoothed particle hydrodynamics: a meshfree particle method}.
+\newblock World scientific, 2003.
+
+\bibitem{liu2009meshfree}
+Gui-Rong Liu.
+\newblock {\em Meshfree methods: moving beyond the finite element method}.
+\newblock CRC press, 2009.
+
+\bibitem{rudin1991functional}
+Walter Rudin.
+\newblock Functional analysis. 1991.
+\newblock {\em Internat. Ser. Pure Appl. Math}, 1991.
+
+\bibitem{douglas2003tutorial}
+Craig~C Douglas, Gundolf Haase, and Ulrich Langer.
+\newblock {\em A tutorial on elliptic PDE solvers and their parallelization},
+  volume~16.
+\newblock Siam, 2003.
+
+\bibitem{cybenko1989approximation}
+George Cybenko.
+\newblock Approximation by superpositions of a sigmoidal function.
+\newblock {\em Mathematics of control, signals and systems}, 2(4):303--314,
+  1989.
+
+\bibitem{li1999alpha}
+Bao-Ming Li, Zheng-Mei Mao, Min Wang, and Zhen-Tong Mei.
+\newblock Alpha-2 adrenergic modulation of prefrontal cortical neuronal
+  activity related to spatial working memory in monkeys.
+\newblock {\em Neuropsychopharmacology}, 21(5):601--610, 1999.
+
+\bibitem{hofbauer1990adaptive}
+Josef Hofbauer and Karl Sigmund.
+\newblock Adaptive dynamics and evolutionary stability.
+\newblock {\em Applied Mathematics Letters}, 3(4):75--79, 1990.
+
+\bibitem{lu2017expressive}
+Zhou Lu, Hongming Pu, Feicheng Wang, Zhiqiang Hu, and Liwei Wang.
+\newblock The expressive power of neural networks: A view from the width.
+\newblock In {\em Advances in neural information processing systems}, pages
+  6231--6239, 2017.
+
+\bibitem{he2016deep}
+Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun.
+\newblock Deep residual learning for image recognition.
+\newblock In {\em Proceedings of the IEEE conference on computer vision and
+  pattern recognition}, pages 770--778, 2016.
+
+\bibitem{lin2018resnet}
+Hongzhou Lin and Stefanie Jegelka.
+\newblock Resnet with one-neuron hidden layers is a universal approximator.
+\newblock In {\em Advances in neural information processing systems}, pages
+  6169--6178, 2018.
+
+\bibitem{hanin2017approximating}
+Boris Hanin and Mark Sellke.
+\newblock Approximating continuous functions by relu nets of minimal width.
+\newblock {\em arXiv preprint arXiv:1710.11278}, 2017.
+
+\bibitem{tikk2003survey}
+Domonkos Tikk, L{\'a}szl{\'o}~T K{\'o}czy, and Tam{\'a}s~D Gedeon.
+\newblock A survey on universal approximation and its limits in soft computing
+  techniques.
+\newblock {\em International Journal of Approximate Reasoning}, 33(2):185--202,
+  2003.
+
+\bibitem{kratsios2019universal}
+Anastasis Kratsios.
+\newblock Universal approximation theorems.
+\newblock {\em arXiv preprint arXiv:1910.03344}, 2019.
+
+\bibitem{hornik1989multilayer}
+Kurt Hornik, Maxwell Stinchcombe, Halbert White, et~al.
+\newblock Multilayer feedforward networks are universal approximators.
+\newblock {\em Neural networks}, 2(5):359--366, 1989.
+
+\bibitem{sonoda2017neural}
+Sho Sonoda and Noboru Murata.
+\newblock Neural network with unbounded activation functions is universal
+  approximator.
+\newblock {\em Applied and Computational Harmonic Analysis}, 43(2):233--268,
+  2017.
+
+\bibitem{petersen2018optimal}
+Philipp Petersen and Felix Voigtlaender.
+\newblock Optimal approximation of piecewise smooth functions using deep relu
+  neural networks.
+\newblock {\em Neural Networks}, 108:296--330, 2018.
+
+\bibitem{ismailov2014approximation}
+Vugar~E Ismailov.
+\newblock On the approximation by neural networks with bounded number of
+  neurons in hidden layers.
+\newblock {\em Journal of Mathematical Analysis and Applications},
+  417(2):963--969, 2014.
+
+\end{thebibliography}

@@ -1,0 +1,70 @@
+This is BibTeX, Version 0.99d (TeX Live 2020/Arch Linux)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: main.aux
+A level-1 auxiliary file: biblio.aux
+The style file: unsrt.bst
+A level-1 auxiliary file: appa.aux
+Database file #1: main.bib
+I was expecting a `,' or a `}'---line 111 of file main.bib
+ :  author={Ivakhnenko, Alekse{\u\i}} 
+ :                                    Grigorʹevich and Lapa, Valentin Grigorʹevich},
+I'm skipping whatever remains of this entry
+Repeated entry---line 116 of file main.bib
+ : @article{schmidhuber2015deep
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 382 of file main.bib
+ : @article{schmidhuber2015deep
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 475 of file main.bib
+ : @article{weinan2018deep
+ :                        ,
+I'm skipping whatever remains of this entry
+Warning--empty booktitle in UQIntro_Sullivan
+Warning--empty journal in ivakhnenko1967cybernetics
+Warning--empty year in ivakhnenko1967cybernetics
+Warning--empty booktitle in MLDict
+Warning--empty booktitle in Base_paper
+You've used 67 entries,
+            1791 wiz_defined-function locations,
+            824 strings with 15565 characters,
+and the built_in function-call counts, 15078 in all, are:
+= -- 1348
+> -- 641
+< -- 14
++ -- 243
+- -- 176
+* -- 979
+:= -- 2366
+add.period$ -- 203
+call.type$ -- 67
+change.case$ -- 54
+chr.to.int$ -- 0
+cite$ -- 72
+duplicate$ -- 700
+empty$ -- 1514
+format.name$ -- 176
+if$ -- 3365
+int.to.chr$ -- 0
+int.to.str$ -- 67
+missing$ -- 80
+newline$ -- 338
+num.names$ -- 67
+pop$ -- 223
+preamble$ -- 2
+purify$ -- 0
+quote$ -- 0
+skip$ -- 297
+stack$ -- 0
+substring$ -- 985
+swap$ -- 146
+text.length$ -- 14
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 5
+while$ -- 149
+width$ -- 69
+write$ -- 718
+(There were 4 error messages)

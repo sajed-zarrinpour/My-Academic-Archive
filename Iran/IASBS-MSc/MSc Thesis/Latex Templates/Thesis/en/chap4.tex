@@ -1,0 +1,107 @@
+\chapter{Results}
+In his chapter, we present the results for the neural schemes as derived in this thesis.
+\section{Neural Network Architecture}
+The structure of the network is shown in figure (\ref{fig:ECIM_NN_Structure}). The input to the NN is an $n^d$ matrix representing the coefficient field $a\in \mathbb{R}^{n^d}$ on grid points, and the out put of the network will be $\mathscr{A}_\text{eff}$. The main part of the network are convolutional layers with ReLU activation function. This extracts the relevant features around each grid points. To incorporate the translational symmetry property of the solution, which is a  previous knowledge, one can use a sum-pooling layer followed by a linear map. More precisely, let $d=2$, $a_{i,j}^{\tau_{1}\tau_{2}}:=a_{(i+\tau_{1})(j+\tau_{2})}$ where the additions are done on $\mathbb{Z}_n$. The output of the convolutional layer gives basis functions that satisfy
+\begin{equation*}
+\tilde{\phi}_{k,i,j} = \tilde{\phi}_{k(i-\tau_{1})(j-\tau_{2})}(a), \hspace*{1cm} k=1,\dots, \alpha, \quad i,j = 1, \dots, n, \quad \forall \tau_{1}, \tau_{2} = 1, \dots,n.
+\end{equation*}
+When using the architecture in figure (\ref{fig:NLSE_NN_Structure}) for any $\tau_{1}, \tau_{2}$,
+\begin{align*}
+f(a^{\tau_{1}\tau_{2}}) &= \sum_{k=1}^{\alpha} \beta_k \sum_{i,j=1}^{n} \biggl( \tilde{\phi}_{kij}(a^{\tau_{1}\tau_{2}}) \biggr)\\ &= \sum_{k=1}^{\alpha} \beta_k \sum_{i,j=1}^{n} \biggl( \tilde{\phi}_{k(i-\tau_{1})(j-\tau_{2})}(a) \biggr)\\ &= \sum_{k=1}^{\alpha} \beta_k \phi_k (a), \\
+\phi_k &:= \sum_{i,j=1}^{n} \tilde{\phi}_kij,
+\end{align*}
+where $\beta_k\text{'s}$ are the weights of the last densely connected layer. The summation over $i, j$ comes from the sum-pooling operation. Therefore, the later shows that the translational symmetry of $f$ is preserved.\\
+Note that, due to the periodic boundary condition, the input has to extend periodic too. \\
+\begin{figure}[h!]
+	{
+		\centering
+		\def\svgwidth{\columnwidth}
+		\scalebox{0.75}{\input{images/NLSE_NN_Structure.pdf_tex}}
+		\caption{Single convolutional layer.}
+		\label{fig:NLSE_NN_Structure}
+	}
+\end{figure}
+
+\pagebreak
+We solved 1D effective conductance. In 1D, the effective conductance can be expressed analytically as the harmonic mean of $a_i\text{'s}$ as follow:
+\begin{equation}
+\label{ECIM_AnalythicalSolution}
+A_{\eff}(a) = \big( \frac{1}{n} \sum_{i=1}^{n} \frac{1}{a_i}\big) ^{-1}.
+\end{equation}
+Full network schema can be found in figure (\ref{fig:ECIM_NN_Structure}). The schema can be divided into three parts. First part is consist of some convolutional layers with size 1 kernel window. Note that the last layer in this part has the channel size 1, since the output of that layer must be a vector of size $n$. The channel size for the rest of them is chosen to be 16. %The out put of these layers can be interpreted as $\frac{1}{a_i}$ for each $a_i$. 
+The plot of the output of this layer can be found in figure \eqref{fig:output_of_the_second_stage}.
+
+Second part is consist of a sum-pooling layer with size $n$ window which produces an scalar.\\
+Although the layers in third part are essentially densely-connected layers, but we taken them to be convolutional layers to reflect the symmetry between the first and third parts. Moreover, The input of this part is an scalar.
+\begin{figure}[h!]
+	{
+	\centering
+	\def\svgwidth{\columnwidth}
+	\scalebox{.5}{\input{images/ECIM_NN_Structure.pdf_tex}}
+	\caption{Neural network architecture for approximating $A_\text{eff}$ in 1D.}
+	\label{fig:ECIM_NN_Structure}
+	}
+\end{figure}
+\begin{figure}[h!]
+	{
+	\centering
+	\def\svgwidth{\columnwidth}
+	\scalebox{.5}{\input{images/output_of_the_second_stage.pdf_tex}}
+	\caption{Output of the first stage of the neural network in approximating $A_\text{eff}$ in 1D.}
+	\label{fig:output_of_the_second_stage}
+	}
+\end{figure}
+\pagebreak
+\section{Effective Conductance in Inhomogeneus Media}
+We let $d=1$. We let $a_i \sim \mathscr{U} [ 0.3, 1.5 ]$, giving an effective conductance of $0.77 \pm 0.13$ for $n = 8$. with $\alpha = 16$, we got $2.5793 \times 10^{-5}$ for the minimum of the loss function (which was mean squared error), and $3.6 \times 10^{-3}$ for our metric (which was the mean absolute error) on the training set. Moreover, minimum of the loss function on the test set was $5.20 \times 10^{-6}$ and the metric reported to be $1.74210 \times 10 ^ {-3}$. Finally, the predicted effective conductance by the network was $0.76800650$ which is acceptable, $\norm{mean(A_{\text{eff-predicted}}) - mean(A_{\text{eff-exact}})} = 1.02100 \times 10^{-3}$, and the sum of the error committed over all samples was $\norm{mean(A_{\text{eff-predicted}} -A_{\text{eff-exact}})} = 3.4214979 \times 10^{-1}$. More details of the distribution of the error per sample can be found in Figures \eqref{fig:ECIM_error_bar} and \eqref{fig:ECIM_error_percentage}.
+
+\begin{figure}[h!]
+	{
+		\centering
+		\def\svgwidth{\columnwidth}
+		\scalebox{.5}{\input{images/ECIM_bar.pdf_tex}}
+		\caption{Committed error per sample over the prediction set}
+		\label{fig:ECIM_error_bar}
+	}
+\end{figure}
+
+\begin{figure}[h!]
+	{
+		\centering
+		\def\svgwidth{\columnwidth}
+		\scalebox{.5}{\input{images/ECIM_percentages.pdf_tex}}
+		\caption{Committed error per sample over the prediction set distribution}
+		\label{fig:ECIM_error_percentage}
+	}
+\end{figure}
+\section{Nonlinear Shr\"{o}dinger Equation}
+We let $d=2$, the same network were used except that this time we used a convolutional 2D layer instead of convolutional 1D, and the pooling is also a 2D global pooling layer. $4786$ sample were used to train, $861$ samples were used to validate, and $1013$ sample were used for predictions. Minimum of loss function on the train data, validation data, and prediction sets reported to be $0.0173$, $0.0140$, and $0.01425044$ respectively. Moreover, the metric on on those sets reported to be  $0.1048$, $0.0934$, $0.09431260$. The mean of predicted ground state had been $10.17474556$ which has the $L^2$-error $7.235 \times 10^{-5}$ from the mean of the labels, and also is in agreement with the \cite{Base_paper}. The number of parameters for our model was $1714$, which is higher due to more layer. Figures \eqref{fig:NLSE_error_bar} and \eqref{fig:NLSE_error_percentage} shows more details of committed errors over the prediction set. 
+\begin{figure}[h!]
+	{
+		\centering
+		\def\svgwidth{\columnwidth}
+		\scalebox{.5}{\input{images/bar.pdf_tex}}
+		\caption{Committed error per sample over the prediction set}
+		\label{fig:NLSE_error_bar}
+	}
+\end{figure}
+
+\begin{figure}[h!]
+	{
+		\centering
+		\def\svgwidth{\columnwidth}
+		\scalebox{.5}{\input{images/percentages.pdf_tex}}
+		\caption{Committed error per sample over the prediction set}
+		\label{fig:NLSE_error_percentage}
+	}
+\end{figure}
+
+\section{Conclusion}
+We pinpoint the bottle necks of the existed methods. We used neural networks to build a surrogate forward model to solve elliptic partial differential equations.
+% We investigate the performance of the same model with smallest changes in both linear and nonlinear equations which had not been done before.
+%Furthermore, we investigate the do and don't rules when solving partial differential equations.
+%Finally we compared two different approaches for solving partial differential equations, one with applying prior knowledge about the PDE and one without that prior knowledge.
+Overall, neural networks seem to be promising for solving partial differential equations.
+
+\section{Future Work}
+One of the problems with neural networks is that they have problems with large labels. On the other hands, sometimes, we have large values as the solutions of the PDEs. For example, the ground state energy can be large. We used Z-score normalization. Will this potentially cause error? Is there any better way to deal with these large labels? If not, is there any error bound for this imposed error?\\
