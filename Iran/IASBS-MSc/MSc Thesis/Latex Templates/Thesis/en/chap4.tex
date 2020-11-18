@@ -1,5 +1,5 @@
 \chapter{Results}
-In his chapter, we present the results for the neural schemes as derived in this thesis.
+In his chapter, we present the results for the neural schemes.
 \section{Neural Network Architecture}
 The structure of the network is shown in figure (\ref{fig:ECIM_NN_Structure}). The input to the NN is an $n^d$ matrix representing the coefficient field $a\in \mathbb{R}^{n^d}$ on grid points, and the out put of the network will be $\mathscr{A}_\text{eff}$. The main part of the network are convolutional layers with ReLU activation function. This extracts the relevant features around each grid points. To incorporate the translational symmetry property of the solution, which is a  previous knowledge, one can use a sum-pooling layer followed by a linear map. More precisely, let $d=2$, $a_{i,j}^{\tau_{1}\tau_{2}}:=a_{(i+\tau_{1})(j+\tau_{2})}$ where the additions are done on $\mathbb{Z}_n$. The output of the convolutional layer gives basis functions that satisfy
 \begin{equation*}
@@ -21,9 +21,8 @@ Note that, due to the periodic boundary condition, the input has to extend perio
 		\label{fig:NLSE_NN_Structure}
 	}
 \end{figure}
-
 \pagebreak
-We solved 1D effective conductance. In 1D, the effective conductance can be expressed analytically as the harmonic mean of $a_i\text{'s}$ as follow:
+We solved 1D effective conductance. In 1D, the effective conductance can be expressed analytically as the harmonic mean of $a_i\text{'s}$ as follow
 \begin{equation}
 \label{ECIM_AnalythicalSolution}
 A_{\eff}(a) = \big( \frac{1}{n} \sum_{i=1}^{n} \frac{1}{a_i}\big) ^{-1}.
@@ -32,7 +31,7 @@ Full network schema can be found in figure (\ref{fig:ECIM_NN_Structure}). The sc
 The plot of the output of this layer can be found in figure \eqref{fig:output_of_the_second_stage}.
 
 Second part is consist of a sum-pooling layer with size $n$ window which produces an scalar.\\
-Although the layers in third part are essentially densely-connected layers, but we taken them to be convolutional layers to reflect the symmetry between the first and third parts. Moreover, The input of this part is an scalar.
+Although the layers in third part are essentially densely-connected layers, we taken them to be convolutional layers to reflect the symmetry between the first and third parts. Moreover, The input of this part is an scalar.
 \begin{figure}[h!]
 	{
 	\centering
@@ -75,7 +74,7 @@ We let $d=1$. We let $a_i \sim \mathscr{U} [ 0.3, 1.5 ]$, giving an effective co
 	}
 \end{figure}
 \section{Nonlinear Shr\"{o}dinger Equation}
-We let $d=2$, the same network were used except that this time we used a convolutional 2D layer instead of convolutional 1D, and the pooling is also a 2D global pooling layer. $4786$ sample were used to train, $861$ samples were used to validate, and $1013$ sample were used for predictions. Minimum of loss function on the train data, validation data, and prediction sets reported to be $0.0173$, $0.0140$, and $0.01425044$ respectively. Moreover, the metric on on those sets reported to be  $0.1048$, $0.0934$, $0.09431260$. The mean of predicted ground state had been $10.17474556$ which has the $L^2$-error $7.235 \times 10^{-5}$ from the mean of the labels, and also is in agreement with the \cite{Base_paper}. The number of parameters for our model was $1714$, which is higher due to more layer. Figures \eqref{fig:NLSE_error_bar} and \eqref{fig:NLSE_error_percentage} shows more details of committed errors over the prediction set. 
+We let $d=2$, the same network were used except that this time we used a convolutional 2D layer instead of convolutional 1D, and the pooling is also a 2D global pooling layer. $4786$ sample were used to train, $861$ samples were used to validate, and $1013$ sample were used for predictions. Minimum of loss function on the train data, validation data, and prediction sets reported to be $0.0173$, $0.0140$, and $0.01425044$ respectively. Moreover, the metric on those sets reported to be  $0.1048$, $0.0934$, $0.09431260$. The mean of predicted ground state had been $10.17474556$ which has the $L^2$-error $7.235 \times 10^{-5}$ from the mean of the labels, and also is in agreement with the \cite{Base_paper}. The number of parameters for our model was $1714$, which is higher due to more layer. Figures \eqref{fig:NLSE_error_bar} and \eqref{fig:NLSE_error_percentage} shows more details of committed errors over the prediction set. 
 \begin{figure}[h!]
 	{
 		\centering
@@ -97,7 +96,7 @@ We let $d=2$, the same network were used except that this time we used a convolu
 \end{figure}
 
 \section{Conclusion}
-We pinpoint the bottle necks of the existed methods. We used neural networks to build a surrogate forward model to solve elliptic partial differential equations.
+We pinpoint the bottle necks of the existed methods. By using neural networks to build a surrogate forward model to solve elliptic partial differential equations.
 % We investigate the performance of the same model with smallest changes in both linear and nonlinear equations which had not been done before.
 %Furthermore, we investigate the do and don't rules when solving partial differential equations.
 %Finally we compared two different approaches for solving partial differential equations, one with applying prior knowledge about the PDE and one without that prior knowledge.
