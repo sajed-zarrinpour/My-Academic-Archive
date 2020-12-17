@@ -5,66 +5,66 @@ A level-1 auxiliary file: biblio.aux
 The style file: unsrt.bst
 A level-1 auxiliary file: appa.aux
 Database file #1: main.bib
-I was expecting a `,' or a `}'---line 111 of file main.bib
+I was expecting a `,' or a `}'---line 113 of file main.bib
  :  author={Ivakhnenko, Alekse{\u\i}} 
  :                                    Grigorʹevich and Lapa, Valentin Grigorʹevich},
 I'm skipping whatever remains of this entry
-Repeated entry---line 116 of file main.bib
+Repeated entry---line 118 of file main.bib
  : @article{schmidhuber2015deep
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 382 of file main.bib
+Repeated entry---line 384 of file main.bib
  : @article{schmidhuber2015deep
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 475 of file main.bib
+Repeated entry---line 477 of file main.bib
  : @article{weinan2018deep
  :                        ,
 I'm skipping whatever remains of this entry
 Warning--empty booktitle in UQIntro_Sullivan
+Warning--empty booktitle in Base_paper
 Warning--empty journal in ivakhnenko1967cybernetics
 Warning--empty year in ivakhnenko1967cybernetics
 Warning--empty booktitle in MLDict
-Warning--empty booktitle in Base_paper
-You've used 67 entries,
+You've used 63 entries,
             1791 wiz_defined-function locations,
-            824 strings with 15565 characters,
-and the built_in function-call counts, 15078 in all, are:
-= -- 1348
-> -- 641
+            800 strings with 14855 characters,
+and the built_in function-call counts, 14069 in all, are:
+= -- 1255
+> -- 590
 < -- 14
-+ -- 243
-- -- 176
-* -- 979
-:= -- 2366
-add.period$ -- 203
-call.type$ -- 67
-change.case$ -- 54
++ -- 225
+- -- 162
+* -- 892
+:= -- 2197
+add.period$ -- 190
+call.type$ -- 63
+change.case$ -- 50
 chr.to.int$ -- 0
-cite$ -- 72
-duplicate$ -- 700
-empty$ -- 1514
-format.name$ -- 176
-if$ -- 3365
+cite$ -- 68
+duplicate$ -- 661
+empty$ -- 1426
+format.name$ -- 162
+if$ -- 3152
 int.to.chr$ -- 0
-int.to.str$ -- 67
-missing$ -- 80
-newline$ -- 338
-num.names$ -- 67
+int.to.str$ -- 63
+missing$ -- 75
+newline$ -- 317
+num.names$ -- 63
 pop$ -- 223
 preamble$ -- 2
 purify$ -- 0
 quote$ -- 0
-skip$ -- 297
+skip$ -- 285
 stack$ -- 0
-substring$ -- 985
-swap$ -- 146
+substring$ -- 898
+swap$ -- 142
 text.length$ -- 14
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 5
-while$ -- 149
-width$ -- 69
-write$ -- 718
+while$ -- 138
+width$ -- 65
+write$ -- 672
 (There were 4 error messages)

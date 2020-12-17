@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.4.18)  18 NOV 2020 16:07
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.4.18)  14 DEC 2020 21:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -878,6 +878,14 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@every@algorithm=\toks48
 \c@algorithm=\count173
 )
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup7
+\symboldletters=\mathgroup8
+\symboldsymbols=\mathgroup9
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
+LaTeX Info: Redefining \bm on input line 207.
+)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/afterpage.sty
 Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
 \AP@output=\toks49
@@ -890,26 +898,26 @@ Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
 (./biblio.aux) (./appa.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
 \AtBeginShipoutBox=\box52
-Package hyperref Info: Link coloring OFF on input line 119.
+Package hyperref Info: Link coloring OFF on input line 120.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -919,9 +927,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count176
 )
-LaTeX Info: Redefining \ref on input line 119.
-LaTeX Info: Redefining \pageref on input line 119.
-LaTeX Info: Redefining \nameref on input line 119.
+LaTeX Info: Redefining \ref on input line 120.
+LaTeX Info: Redefining \pageref on input line 120.
+LaTeX Info: Redefining \nameref on input line 120.
 
 (./main.out) (./main.out)
 \@outlinefile=\write4
@@ -967,7 +975,7 @@ ABD: EveryShipout initializing macros
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.16} into 
 your preamble.
- on input line 119.
+ on input line 120.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
@@ -985,6 +993,7 @@ Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 99.
 (./cover.tex
 File: logopolito.jpg Graphic file (type bmp)
 <logopolito.jpg>
+Missing character: There is no ا in font ec-lmr17!
 
 (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
@@ -1027,12 +1036,19 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2]
 [3] [4]
-Missing character: There is no – in font ec-lmr12!
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [5]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6]
-Overfull \hbox (37.6408pt too wide) in paragraph at lines 56--59
+Missing character: There is no – in font ec-lmr12!
+
+[7]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8]
+Overfull \hbox (37.6408pt too wide) in paragraph at lines 51--54
 \T1/lmr/m/n/12 Learning, in case of su-per-vised learn-ing, is to min-i-mize a 
 func-tion like $\U/rsfs/m/n/12 L\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 Y; \OT1/cmr/m
 /n/12 ^^H(\OML/cmm/m/it/12 X; W[]; [] ; W[]\OT1/cmr/m/n/12 ))$
@@ -1041,29 +1057,29 @@ func-tion like $\U/rsfs/m/n/12 L\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 Y; \OT1/cmr/m
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7]
+ [9]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [8]
-Underfull \hbox (badness 10000) in paragraph at lines 83--86
+ [10]
+Underfull \hbox (badness 10000) in paragraph at lines 77--80
 
  []
 
-[9] [10] [11]
+[11] [12]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [12])
-(./chap2.tex [13]
+ [13])
+(./chap2.tex [14]
 Chapter 2.
-[14
+[15
 
-] [15] [16] [17] [18] [19]
+] [16] [17] [18] [19] [20]
 Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [20]
-Underfull \vbox (badness 3724) has occurred while \output is active []
 
  [21]
+Underfull \vbox (badness 3724) has occurred while \output is active []
+
+ [22]
 Underfull \hbox (badness 10000) in paragraph at lines 268--270
 
  []
@@ -1083,21 +1099,21 @@ m/m/it/12 v \OMS/cmsy/m/n/12 2 \U/rsfs/m/n/12 H[]\OT1/cmr/m/n/12 (
 )
  []
 
-[22]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [23]
+[23]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [24]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25]
 Missing character: There is no h in font rsfs10!
 
-[25] [26] [27]) (./chap3.tex [28]
+[26] [27] [28]) (./chap3.tex [29]
 Chapter 3.
 
 Underfull \vbox (badness 5756) has occurred while \output is active []
 
- [29
+ [30
 
 ]
 Overfull \hbox (42.63748pt too wide) detected at line 26
@@ -1112,8 +1128,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--43
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [30]
-[31]
+ [31]
+[32]
 Overfull \hbox (4.34529pt too wide) detected at line 71
  []$[]   \OMS/cmsy/m/n/12 ^^@ [] [] ^^A [] ^^@ [] \OML/cmm/m/it/12 a[][] \OMS/c
 msy/m/n/12 ^^@ [] \OML/cmm/m/it/12 ^^X[][]$ 
@@ -1132,7 +1148,7 @@ Overfull \hbox (65.53267pt too wide) detected at line 88
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [32]
+ [33]
 Overfull \hbox (29.55702pt too wide) detected at line 110
 \OML/cmm/m/it/12 L[] \OT1/cmr/m/n/12 = [][][][]\OML/cmm/m/it/12 ;
  []
@@ -1142,12 +1158,12 @@ put line 122.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [33]
-[34]
+ [34]
+[35]
 Underfull \vbox (badness 7704) has occurred while \output is active []
 
- [35]
-[36]
+ [36]
+[37]
 Overfull \hbox (1.57657pt too wide) in paragraph at lines 213--215
 [][]\T1/lmr/bx/n/12 Theorem 3.4. []\T1/lmr/m/it/12 If $\OT1/cmr/m/n/12 ^^A\OML/
 cmm/m/it/12 t$ \T1/lmr/m/it/12 sat-is-fies the the con-di-tion in Lemma []9[], 
@@ -1156,10 +1172,10 @@ y/m/n/12 jE\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 v[]\OT1/cmr/m/n/12 ; \OML/cmm/m/it
 /12 a\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 ^^@
  []
 
-[37]
+[38]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [38]
+ [39]
 Overfull \hbox (5.73749pt too wide) in paragraph at lines 246--248
 \T1/lmr/m/n/12 where the sec-ond in-equal-ity fol-lows from ([]3.23[]). In or-d
 er to de-rive a bound for $[][][]$,
@@ -1169,19 +1185,19 @@ Missing character: There is no − in font cmr12!
 
 Underfull \vbox (badness 7667) has occurred while \output is active []
 
- [39]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [40]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [41])
-(./chap4.tex [42] [43]
+ [41]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [42])
+(./chap4.tex [43] [44]
 Chapter 4.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [44
+ [45
 
 ]
 (./images/NLSE_NN_Structure.pdf_tex
@@ -1190,7 +1206,7 @@ File: images/NLSE_NN_Structure.pdf Graphic file (type pdf)
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [45]
+ [46]
 (./images/ECIM_NN_Structure.pdf_tex
 File: images/ECIM_NN_Structure.pdf Graphic file (type pdf)
 <use images/ECIM_NN_Structure.pdf, page 1>
@@ -1205,7 +1221,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [46]
+ [47]
 (./images/ECIM_bar.pdf_tex
 File: images/ECIM_bar.pdf Graphic file (type pdf)
 <use images/ECIM_bar.pdf, page 1>
@@ -1223,7 +1239,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 (./images/bar.pdf_tex
 File: images/bar.pdf Graphic file (type pdf)
 <use images/bar.pdf, page 1>
-) [47]
+) [48]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1237,16 +1253,16 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [48])
-Underfull \hbox (badness 10000) in paragraph at lines 106--137
+ [49])
+Underfull \hbox (badness 10000) in paragraph at lines 106--138
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [49]
-[50]
+ [50]
+[51]
 \openout2 = `biblio.aux'.
 
  (./biblio.tex (./main.bbl
@@ -1255,28 +1271,84 @@ Underfull \hbox (badness 1769) in paragraph at lines 21--26
 or, Thomy
  []
 
-[51
+[52
 
 
 ]
 Missing character: There is no ́ in font ec-lmr12!
- [52]
-Underfull \hbox (badness 10000) in paragraph at lines 179--183
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.107   http://www.bcamath.org/documentos_
+                                          public/archivos/actividades_cienti...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.109 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.109 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--109
+[]\T1/lmr/m/n/12 Max Gun-zburger.  An in-tro-duc-tion to al-go-rithms for un-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--109
+\T1/lmr/m/n/12 cer-tainty quan-tifi-ca-tion for pdes with ran-dom in-puts:
+ []
+
+
+Overfull \hbox (96.05997pt too wide) in paragraph at lines 104--109
+\T1/lmr/m/n/12 http://www.bcamath.org/documentos$[]\OML/cmm/m/it/12 ublic=archi
+vos=actividades[]ientificas=gunzburger:pdf; \OT1/cmr/m/n/12 2016\OML/cmm/m/it/1
+2 :[]$ 
+ []
+
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.109 
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+[53] [54]
+Underfull \hbox (badness 10000) in paragraph at lines 209--213
 []\T1/lmr/m/n/12 Bill Wil-son.  The ma-chine learn-ing dic-tio-nary:
  []
 
-[53] [54] [55]
-Underfull \hbox (badness 2512) in paragraph at lines 372--375
+[55]
+Underfull \hbox (badness 7308) in paragraph at lines 349--352
 []\T1/lmr/m/n/12 Anastasis Krat-sios.  Uni-ver-sal ap-prox-i-ma-tion the-o-rems
 .  \T1/lmr/m/it/12 arXiv preprint
  []
 
-)) [56]
+[56])) [57]
 \openout2 = `appa.aux'.
 
  (./appa.tex
 Chapter 5.
-[57
+[58
 
 
 
@@ -1295,7 +1367,7 @@ File: persian.pdf Graphic file (type pdf)
 <use persian.pdf, page 16>
 File: persian.pdf Graphic file (type pdf)
 <use persian.pdf, page 16>
- [58
+ [59
 
 
 ]
@@ -1305,122 +1377,122 @@ File: persian.pdf Graphic file (type pdf)
 <use persian.pdf, page 15>
 File: persian.pdf Graphic file (type pdf)
 <use persian.pdf, page 15>
- [59]
-File: persian.pdf Graphic file (type pdf)
-<use persian.pdf, page 14>
-File: persian.pdf Graphic file (type pdf)
-<use persian.pdf, page 14>
-File: persian.pdf Graphic file (type pdf)
-<use persian.pdf, page 14>
  [60]
 File: persian.pdf Graphic file (type pdf)
-<use persian.pdf, page 13>
+<use persian.pdf, page 14>
 File: persian.pdf Graphic file (type pdf)
-<use persian.pdf, page 13>
+<use persian.pdf, page 14>
 File: persian.pdf Graphic file (type pdf)
-<use persian.pdf, page 13>
+<use persian.pdf, page 14>
  [61]
 File: persian.pdf Graphic file (type pdf)
-<use persian.pdf, page 12>
+<use persian.pdf, page 13>
 File: persian.pdf Graphic file (type pdf)
-<use persian.pdf, page 12>
+<use persian.pdf, page 13>
 File: persian.pdf Graphic file (type pdf)
-<use persian.pdf, page 12>
+<use persian.pdf, page 13>
  [62]
 File: persian.pdf Graphic file (type pdf)
-<use persian.pdf, page 11>
+<use persian.pdf, page 12>
 File: persian.pdf Graphic file (type pdf)
-<use persian.pdf, page 11>
+<use persian.pdf, page 12>
 File: persian.pdf Graphic file (type pdf)
-<use persian.pdf, page 11>
+<use persian.pdf, page 12>
  [63]
 File: persian.pdf Graphic file (type pdf)
-<use persian.pdf, page 10>
+<use persian.pdf, page 11>
 File: persian.pdf Graphic file (type pdf)
-<use persian.pdf, page 10>
+<use persian.pdf, page 11>
 File: persian.pdf Graphic file (type pdf)
-<use persian.pdf, page 10>
+<use persian.pdf, page 11>
  [64]
 File: persian.pdf Graphic file (type pdf)
-<use persian.pdf, page 9>
+<use persian.pdf, page 10>
 File: persian.pdf Graphic file (type pdf)
-<use persian.pdf, page 9>
+<use persian.pdf, page 10>
 File: persian.pdf Graphic file (type pdf)
-<use persian.pdf, page 9>
+<use persian.pdf, page 10>
  [65]
 File: persian.pdf Graphic file (type pdf)
-<use persian.pdf, page 8>
+<use persian.pdf, page 9>
 File: persian.pdf Graphic file (type pdf)
-<use persian.pdf, page 8>
+<use persian.pdf, page 9>
 File: persian.pdf Graphic file (type pdf)
-<use persian.pdf, page 8>
+<use persian.pdf, page 9>
  [66]
 File: persian.pdf Graphic file (type pdf)
-<use persian.pdf, page 7>
+<use persian.pdf, page 8>
 File: persian.pdf Graphic file (type pdf)
-<use persian.pdf, page 7>
+<use persian.pdf, page 8>
 File: persian.pdf Graphic file (type pdf)
-<use persian.pdf, page 7>
+<use persian.pdf, page 8>
  [67]
 File: persian.pdf Graphic file (type pdf)
-<use persian.pdf, page 6>
+<use persian.pdf, page 7>
 File: persian.pdf Graphic file (type pdf)
-<use persian.pdf, page 6>
+<use persian.pdf, page 7>
 File: persian.pdf Graphic file (type pdf)
-<use persian.pdf, page 6>
+<use persian.pdf, page 7>
  [68]
 File: persian.pdf Graphic file (type pdf)
-<use persian.pdf, page 5>
+<use persian.pdf, page 6>
 File: persian.pdf Graphic file (type pdf)
-<use persian.pdf, page 5>
+<use persian.pdf, page 6>
 File: persian.pdf Graphic file (type pdf)
-<use persian.pdf, page 5>
+<use persian.pdf, page 6>
  [69]
 File: persian.pdf Graphic file (type pdf)
-<use persian.pdf, page 4>
+<use persian.pdf, page 5>
 File: persian.pdf Graphic file (type pdf)
-<use persian.pdf, page 4>
+<use persian.pdf, page 5>
 File: persian.pdf Graphic file (type pdf)
-<use persian.pdf, page 4>
+<use persian.pdf, page 5>
  [70]
 File: persian.pdf Graphic file (type pdf)
-<use persian.pdf, page 3>
+<use persian.pdf, page 4>
 File: persian.pdf Graphic file (type pdf)
-<use persian.pdf, page 3>
+<use persian.pdf, page 4>
 File: persian.pdf Graphic file (type pdf)
-<use persian.pdf, page 3>
+<use persian.pdf, page 4>
  [71]
 File: persian.pdf Graphic file (type pdf)
+<use persian.pdf, page 3>
+File: persian.pdf Graphic file (type pdf)
+<use persian.pdf, page 3>
+File: persian.pdf Graphic file (type pdf)
+<use persian.pdf, page 3>
+ [72]
+File: persian.pdf Graphic file (type pdf)
 <use persian.pdf, page 2>
 File: persian.pdf Graphic file (type pdf)
 <use persian.pdf, page 2>
 File: persian.pdf Graphic file (type pdf)
 <use persian.pdf, page 2>
 
-[72]
+[73]
 File: persian.pdf Graphic file (type pdf)
 <use persian.pdf, page 1>
 File: persian.pdf Graphic file (type pdf)
 <use persian.pdf, page 1>
 File: persian.pdf Graphic file (type pdf)
 <use persian.pdf, page 1>
- [73]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 143.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 143.
+ [74]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 144.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 144.
  (./main.aux (./biblio.aux) (./appa.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 143.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 143.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 144.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 144.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 6B18ED015190A1ECF679063EAB7AE47D.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 143.
+(rerunfilecheck)             Checksum: D76AEB6A2AE5A69E4FEA77E593B8FDB1.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 144.
  ) 
 Here is how much of TeX's memory you used:
- 32783 strings out of 492970
- 734703 string characters out of 6133938
+ 32857 strings out of 492970
+ 735479 string characters out of 6133938
  933062 words of memory out of 5000000
- 36192 multiletter control sequences out of 15000+600000
- 66116 words of font info for 57 fonts, out of 8000000 for 9000
+ 36257 multiletter control sequences out of 15000+600000
+ 67957 words of font info for 63 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 62i,18n,96p,1212b,540s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,18n,96p,2076b,540s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (79 pages).
+Output written on main.pdf (80 pages).

@@ -1,6 +1,6 @@
 \chapter{Mathematical Models}
 In this chapter, we will introduce two PDEs which we want to solve as an example. To maintain generality we choose one linear inhomogeneous elliptic equation which is the effective conductance in a non-homogeneous media, and one nonlinear inhomogeneous Schr\"{o}dinger equation with random background potential.
-\section{Effective Coefficients for Inhomogeneous Elliptic Equation}
+\section{Effective Coefficients for Inhomogeneous Elliptic Equation}\label{section_ECIM}
 Let 
 \begin{equation}
 	\label{def:coefficient_field_for_effective_conductance}
@@ -270,7 +270,7 @@ Theorem (\ref{theorem:one}) will immediately results the following theorem:
 		\frac{\abs{h_\theta(a) - \mathscr{A}_{\text{eff}}(a)}}{\mathscr{A}_{\text{eff}}(a)} \leq \epsilon \frac{\lambda_{1}}{\lambda_{0}}.
 	\end{equation*}
 \end{thm}
-\section{None Linear Schr\"{o}dinger Equation with Inhomogeneous Background Potential}
+\section{Nonlinear Schr\"{o}dinger Equation with Inhomogeneous Background Potential}
 Consider following differential equation:
 \begin{equation}
 	-\Delta u(x) + a(x)u(x) + \sigma u(x)^3 = E_0 u(x), x\in [0,1]^d, s.t. \int_{[0,1]^d}u(x)^2 dx = 1.
@@ -335,4 +335,4 @@ To solve this equation, we use newton homotopy method as follow. Consider the se
 	\end{algorithmic}
 \end{algorithm}
 From algorithm \eqref{alg:NLSE_FDM_Matrix}, one can find starting values $E_0^0$ and $U^0$. Note that, for $s = 0$, it is an standard eigenvalue problem; $AU = E_0U$. Also,for $s_i > 0$, there is an additional update operation on the diagonal elements, that is, $A(r,r) = A(r,r) + s_i U_{i,j}^2$. Note that the normalization condition had been applied in the method implicitly. Hence, what the algorithm computes is $E\times h^2$ so there remains another operation $E = E/h^2$. For each $S_i$, $i>0$, inverse power method used to solve the NLSE and $E_0$, $V_0$ obtained with $s=s_i$ will be used to warm start for the next iteration. The procedure will proceed till $s_k = \sigma$. We used step size equals to $0.4$ for that purpose.\\
-In the rest of this thesis, we use algorithm~\eqref{eq:effective_conductance_FDM_Matrix_form} and equation~\eqref{eq:NLSE} as our numerical schema for generating the Data set needed for training and testing the Neural Network that will be discussed in details in Next Chapter.
+In the rest of this thesis, we use algorithm~\eqref{eq:effective_conductance_FDM_Matrix_form} and equation~\eqref{eq:NLSE} as our numerical schema for generating the Data set needed for training and testing the Neural Network that will be discussed in details in next chapter.

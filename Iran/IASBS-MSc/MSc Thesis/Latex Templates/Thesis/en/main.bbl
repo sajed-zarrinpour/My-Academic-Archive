@@ -100,6 +100,36 @@ T.~J. Sullivan.
 \newblock Introduction to uncertainty quantification.
 \newblock 2015.
 
+\bibitem{UQIntroGunzburger}
+Max Gunzburger.
+\newblock An introduction to algorithms for uncertainty quantification for pdes
+  with random inputs:
+  http://www.bcamath.org/documentos_public/archivos/actividades_cientificas/gunzburger.pdf,
+  2016.
+
+\bibitem{Base_paper}
+Yuehaw Khoo, Jianfeng Lu, and L.~I.~U. Ying.
+\newblock Solving pde problems with uncertainty using neural-networks.
+\newblock 2018.
+
+\bibitem{weinan2018deep}
+E~Weinan and Bing Yu.
+\newblock The deep ritz method: a deep learning-based numerical algorithm for
+  solving variational problems.
+\newblock {\em Communications in Mathematics and Statistics}, 6(1):1--12, 2018.
+
+\bibitem{raissi2017physics}
+Maziar Raissi, Paris Perdikaris, and George~Em Karniadakis.
+\newblock Physics informed deep learning (part ii): Data-driven discovery of
+  nonlinear partial differential equations. arxiv.
+\newblock {\em arXiv preprint arXiv:1711.10561}, 2017.
+
+\bibitem{raissi2018deep}
+Maziar Raissi.
+\newblock Deep hidden physics models: Deep learning of nonlinear partial
+  differential equations.
+\newblock {\em The Journal of Machine Learning Research}, 19(1):932--955, 2018.
+
 \bibitem{mcculloch1943logical}
 Warren~S McCulloch and Walter Pitts.
 \newblock A logical calculus of the ideas immanent in nervous activity.
@@ -181,64 +211,11 @@ Bill Wilson.
   http://www.cse.unsw.edu.au/~billw/dictionaries/mldict.html.
 \newblock 1998 - 2012.
 
-\bibitem{weinan2018deep}
-E~Weinan and Bing Yu.
-\newblock The deep ritz method: a deep learning-based numerical algorithm for
-  solving variational problems.
-\newblock {\em Communications in Mathematics and Statistics}, 6(1):1--12, 2018.
-
 \bibitem{wang2019prediction}
 Min Wang, Siu~Wun Cheung, Eric~T Chung, Yalchin Efendiev, Wing~Tat Leung, and
   Yating Wang.
 \newblock Prediction of discretization of gmsfem using deep learning.
 \newblock {\em Mathematics}, 7(5):412, 2019.
-
-\bibitem{raissi2017physics}
-Maziar Raissi, Paris Perdikaris, and George~Em Karniadakis.
-\newblock Physics informed deep learning (part ii): Data-driven discovery of
-  nonlinear partial differential equations. arxiv.
-\newblock {\em arXiv preprint arXiv:1711.10561}, 2017.
-
-\bibitem{Base_paper}
-Yuehaw Khoo, Jianfeng Lu, and L.~I.~U. Ying.
-\newblock Solving pde problems with uncertainty using neural-networks.
-\newblock 2018.
-
-\bibitem{raissi2018deep}
-Maziar Raissi.
-\newblock Deep hidden physics models: Deep learning of nonlinear partial
-  differential equations.
-\newblock {\em The Journal of Machine Learning Research}, 19(1):932--955, 2018.
-
-\bibitem{khoo2019solving}
-Yuehaw Khoo, Jianfeng Lu, and Lexing Ying.
-\newblock Solving for high-dimensional committor functions using artificial
-  neural networks.
-\newblock {\em Research in the Mathematical Sciences}, 6(1):1, 2019.
-
-\bibitem{lagaris1998artificial}
-Isaac~E Lagaris, Aristidis Likas, and Dimitrios~I Fotiadis.
-\newblock Artificial neural networks for solving ordinary and partial
-  differential equations.
-\newblock {\em IEEE transactions on neural networks}, 9(5):987--1000, 1998.
-
-\bibitem{long2017pde}
-Zichao Long, Yiping Lu, Xianzhong Ma, and Bin Dong.
-\newblock Pde-net: Learning pdes from data.
-\newblock {\em arXiv preprint arXiv:1710.09668}, 2017.
-
-\bibitem{rudd2015constrained}
-Keith Rudd and Silvia Ferrari.
-\newblock A constrained integration (cint) approach to solving partial
-  differential equations using artificial neural networks.
-\newblock {\em Neurocomputing}, 155:277--285, 2015.
-
-\bibitem{han2018solving}
-Jiequn Han, Arnulf Jentzen, and E~Weinan.
-\newblock Solving high-dimensional partial differential equations using deep
-  learning.
-\newblock {\em Proceedings of the National Academy of Sciences},
-  115(34):8505--8510, 2018.
 
 \bibitem{forsythe1960finite}
 George~E Forsythe and Wolfgang~R Wasow.
