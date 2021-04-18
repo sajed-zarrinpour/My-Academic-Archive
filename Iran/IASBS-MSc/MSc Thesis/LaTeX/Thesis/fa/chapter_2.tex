@@ -1,0 +1,118 @@
+\chapter{معرفی دستور زبان و عملگرها}
+در این فصل به معرفی دستورات اصلی زبان می‌پردازیم. در بخش اول انواع داده و دستورات ابتدایی زبان را مشخص می‌کنیم. در بخش دوم تعریف توابع را بررسی می کنیم. در انتها بخش سوم به آرایه‌ها و ماتریس‌ها اختصاص یافته است.
+\section{انواع داده و دستورات ابتدایی}
+نرم افزار FreeFem++ به ذات یک زبان تفسیری است؛ از نوع زبان های وابسته به انواع و چند ریختی است و به پردازش خطا مجهز است. هر متغییر باید با یک نوع مشخص تعریف شود. و همانند C++ هر دستور باید به کاراکتر ";" ختم شود. نوشتن توضیح نیز به طور مشابه با کاراکتر های "//" و "/**/" به ترتیب برای توضیحات یک و چند خطی استفاده می شوند. برای قطع روند اجرا از دستور exit(0) استفاده می کنیم.\\
+متغیر verbosity سطح چاپ را تنظیم می کند و مقدار پیش فرض آن 2 است. انواع داده پایه ای عبارت اند از :
+\begin{enumerate}
+	\item مختصات فعلی x, y و z
+	\item عملگر های پیش فرض دیفرانسیل:
+		  $dx=\frac{\partial}{\partial x}$ ،
+		  $dy=\frac{\partial}{\partial y}$ ،
+		  $dz=\frac{\partial}{\partial z}$ ،
+		  $dxx=\frac{\partial}{\partial xx}$ ،
+		  $dyy=\frac{\partial}{\partial yy}$ ،
+		  $dzz=\frac{\partial}{\partial zz}$ ،
+		  $dxy=\frac{\partial}{\partial xy}$ ،
+		  $dxz=\frac{\partial}{\partial xz}$ و
+		  $dyz=\frac{\partial}{\partial yz}$ .
+	\item عدد صحیح int
+	\item عدد حقیقی real
+	\item عدد مختلط complex
+	\item رشته string
+	\item آرایه با عناصر حقیقی real[int]
+	\item آرایه با عناصر مختلط complex[int]
+	\item ماتریس با درایه های حقیقی real[int,int]
+	\item ماتریس با درایه های مختلط complex[int,int]
+	\item مثلث بندی دو بعدی mesh
+	\item مثلث بندی سه بعدی mesh3
+	\item فضای عناصر متناهی fespace
+	\item انتگرال یک بعدی int1d
+	\item انتگرال دو بعدی int2d
+	\item انتگرال سه بعدی int3d
+\end{enumerate}
+\section{تعریف توابع}
+توابع می توانند برای مصارف زیر تعریف شوند :
+
+\begin{enumerate}
+	\item تعریف توابع تحلیلی
+		 \begin{LTR}
+			 \begin{lstlisting}
+ func u0=1.*(x>=2 & x<=2)  
+		   \end{lstlisting}
+		 \end{LTR}
+	\item تعریف یک تابع یا آرایه در فضای عناصر متناهی
+		\begin{LTR}
+			\begin{lstlisting}
+ Vh u=exp(-x^2-y^2)  
+			\end{lstlisting}
+		\end{LTR}
+		لازم به ذکر است که در این مورد u یک تابع در فضای عناصر متناهی است. بنابراین u[] مقدار u در تمام درجات آزادی را بر می گرداند. همچنین اگر مقدار تابع در i-امین درجه آزادی مد نظر باشد می توانیم از دستور u[][i] استفاده کنیم و نهایتا برای یافتن مقدار u در نقطه دلخواه (a,b) از دستور u(a,b) استفاده می کنیم.
+	\item تعریف توابع معمولی
+	\begin{LTR}
+		\begin{lstlisting}
+ func real f ( int a , real [ int ] U ) {
+ 	Vh NU ;
+ 	NU []= U ;
+ 	return a * NU ;
+ }
+ Vh U =x, FNU =f (5 , U []) ;  
+		\end{lstlisting}
+	\end{LTR}
+	\item تعریف ماکرو ها
+	\begin{LTR}
+	\begin{lstlisting}
+ macro Grad ( u ) [dx( u ) ,dy( u ) ]// in 2D
+ macro Grad ( u ) [dx( u ) ,dy( u ) ,dz( u) ]// in 3D
+ macro div (u , v ) [dx( u )+dy( v ) ]// in 2D
+ macro div (u ,v , w ) [dx(u ) +dy( v ) +dz( w ) ]// in 3D  
+		\end{lstlisting}
+	\end{LTR}
+دقت کنید که دستور تعریف ماکرو به جای کاراکتر ";" به کاراکتر "//" ختم می شود.	
+\end{enumerate}
+
+\section{آرایه ها و ماتریس ها}
+مانند متلب آرایه ها را می توان به صورت  U=start:step:end real[int] تعریف کرد و با دستور U(i) می توان به i-امین عنصر آرایه دسترسی یافت. تعریف و دسترسی به درایه های ماتریس ها نیز به طور مشابه انجام می شود. تعدادی از دستورات مربوط به ماتریس ها و آرایه ها به شرح زیر است.
+\begin{LTR}
+	\begin{lstlisting}
+ real [int] u1 =[1 ,2 ,3] , u2 =2:4; // defining u1 and u2
+ real u1pu2 = u1 ’* u2 ; // give the scalar product of u1 and u2 , here u1 ’ is the transpose of u1;
+ real [int] u1du2 = u1 ./ u2 ; // divided term by term
+ real [int] u1mu2 = u1 .* u2 ; // multiplied term by term
+ matrix A = u1 * u2 ’; // product of u1 and the transpose of u2
+ matrix < complex > C =[ [1 ,1i ] ,[1+2i ,.5*1 i] ];
+ real trA = trace ([1 ,2 ,3]*[2 ,3 ,4] ’) ; // trace of the matrix
+ real detA = det ([ [1 ,2] ,[ -2 ,1] ]) ; // just for matrix 1x1 and 2x2
+	\end{lstlisting}
+\end{LTR}
+ در انتها ذکر این نکته ضروری است که حلقه های تکرار و دستورات ورود و خروج جریان داده همان دستورات زبان C++ هستند. یعنی
+ \begin{LTR}
+ 	\begin{lstlisting}
+ for ( INITIALIZATION ; CONDITION ; CHANGE )
+ { 
+ 	BLOCK of calculations 
+ }
+ 	
+ while ( CONDITION ) 
+ {
+ 	BLOCK of calculations or change of control variables
+ }
+ 
+ int i;
+ cout << " std -out" << endl ;
+ cout << " enter i= ? ";
+ cin >> i ;
+ Vh uh =x+y;
+ ofstream f (" toto . txt "); f << uh []; // to save the solution
+ ifstream f (" toto . txt "); f >> uh []; // to read the solution
+ 	\end{lstlisting}
+ \end{LTR}
+
+
+
+
+
+
+
+
+
+

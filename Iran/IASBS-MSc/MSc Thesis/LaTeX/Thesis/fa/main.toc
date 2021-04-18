@@ -1,0 +1,10 @@
+\contentsline {section}{چکیده}{دو}{section*.1}
+\contentsline {section}{مقدمه}{1}{section*.2}
+\contentsline {section}{انگیزه و هدف}{2}{section*.3}
+\contentsline {section}{مقدارسنجی عدم قطعیت }{5}{section*.4}
+\contentsline {section}{تعریف مسئله}{6}{section*.5}
+\contentsline {section}{شبکه‌های عصبی }{10}{section*.8}
+\contentsline {section}{روش پیشنهادی }{12}{section*.9}
+\contentsline {section}{نتایج}{14}{section*.10}
+\contentsline {section}{نتیجه‌گیری و کارهای پیش‌رو}{16}{section*.13}
+\contentsline {section}{واژه‌نامه فارسی به انگلیسی }{17}{section*.13}
