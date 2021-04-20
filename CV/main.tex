@@ -28,127 +28,63 @@
 \usepackage{graphicx}
 \usepackage{adjustbox}
 
+\usepackage{booktabs}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
+%\usepackage[T1]{fontenc}
+\usepackage{tikz}
+\usepackage[nodayofweek]{datetime}
 
+\usepackage{pdfpages}
+
+\usepackage{enumerate}
+\definecolor{white}{RGB}{255,255,255}
+\definecolor{gray}{HTML}{4D4D4D}
+\definecolor{maingray}{HTML}{B9B9B9}
+
+\newcommand\skills[1]{ 
+	\begin{tikzpicture}
+	\foreach [count=\i] \x/\y in {#1}{
+		\draw[fill=maingray,maingray] (0,\i) rectangle (6,\i+0.4);
+		\draw[fill=white,gray](0,\i) rectangle (\y,\i+0.4);
+		%\node[ right] at (0,\i+0.4) {\x};
+	}
+	\end{tikzpicture}
+}
 
 \name{Sajed N. ZarinPour} % Your name
-\address{office 5034, Math Department, IASBS \\ Zanjan, Zanjan Province, Iran} % Your address
+%\address{Office 5034, Math Department, IASBS \\ Zanjan, Zanjan Province, Iran} % Your address
 %\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
-\address{(+98)~$\cdot$~938~$\cdot$~218~$\cdot$~8208 \\ sa.zarinpour@gmail.com \\
-sa.zarrinpour@iasbs.ac.ir} % Your phone number and email
+\address{(+98)~$\cdot$~935~$\cdot$~218~$\cdot$~8208 \\ sa.zarinpour@gmail.com \\ https://github.com/sajed-zarrinpour} % Your phone number and email
 
 \begin{document}
 %\profilepic{images/me}
-%----------------------------------------------------------------------------------------
-%	EDUCATION SECTION
-%----------------------------------------------------------------------------------------
 
+%\includepdf[pages=-]{cimimprsapplicationform2020}
 
-\begin{rSection}{Education}
+%\input{Parts/CoverLetter.tex}	
+%\clearpage\newpage
+%\input{Parts/MotivationLetter.tex}
+%\clearpage \newpage
+%\input{Parts/StatementOfResearxh.tex}
+\input{Parts/Education.tex}
+\input{Parts/Publications.tex}
+\input{Parts/ResearchAndInterests.tex}
+%\input{Parts/RelevantCourses.tex}
+\input{Parts/SchoolsAndConferences.tex}
+\input{Parts/Skills.tex}
+%\input{Parts/HobiesAndInterests.tex}
+%\clearpage \newpage
+%\input{Parts/BachelorTranscriptOfRecords.tex}
 
-	\years{2017 -  2020}{\bf Institute for Advanced Studies in Basic Sciences, Iran} \\%\hfill {\em 2017 -  Present} \\ 
-	M.Sc. in Applied Mathematics \smallskip \\
-	Numerical Method for Solving PDEs with Uncertainty Using Neural-Network 
-	
-	\years{2012 - 2017}{\bf University of Guilan, Iran}\\ % \hfill {\em 2012 - 2017} \\ 
-	B.Sc. in Applied Mathematics \smallskip \\
-	Study on GMDH algorithm for Stock Price
-\end{rSection}
-
-%----------------------------------------------------------------------------------------
-%	WORK EXPERIENCE SECTION
-%----------------------------------------------------------------------------------------
-%\begin{rSection}{Publications}
-%	\years{2017} B.Sc. Graduate Thesis: A Study on Stock Price Modeling Using GMDH Algorithm, Guilan University\\	
-%\end{rSection}
-\begin{rSection}{Reaserch \& Interests}	
-	\begin{rSubsection}{}{}{}{}
-		\item Numerical Solving PDEs with Uncertainty
-		\item Neural-Networks \& Deep learning
-		\item Inverse Problems
-		\item Mathematical Modeling
-		\item Biology
-		\item Cancer
-	\end{rSubsection}	
-\end{rSection}
-%\begin{rSection}{Relevant Courses Passed}	
-%	\begin{rSubsection}{}{}{}{}
-%		\item An Introduction to Numerical Solving of Partial Differential Equations.
-%		\item An Introduction to Numerical Solving of Integral Equations.
-%		\item Finite Element Method.\\\\
-%	\end{rSubsection}	
-%\end{rSection}
-\begin{rSection}{Relevant Schools \& Conferences}	
-	\begin{rSubsection}{}{}{}{}
-		\item \textbf{From Biophysical Modeling to Simulation Codes}, Graz university, Isfahan University of Technology - January 2019
-		
-		\item \textbf{Introduction to Data Science in R}, Apple Inc., Stanford University - March 2019
-	\end{rSubsection}
-\end{rSection}
-\begin{rSection}{ Relevant Skills \& experiences} 	
-	\begin{tabular}{@{} >{}l @{\hspace{6ex}} >{\em}l}
-		\bfseries Computer Skills \\
-		 \cline{1-2}\\
-			Scientific Programming Languages & Python , C++ \\
-			Scientific Libraries             & Numpy, Eigen, Torch, Keras\\
-			Professional Softwares           & FreeFem++, GMSH, NGSolve\\
-			Other Skills                     & Linux, \latex , vim, Blender\\
-		\cline{1-2}\\
-		\bf Languages\\
-		\cline{1-2}\\
-			Persian & Native \\
-			English & Upper Intermediate \\
-			French  & Beginner \\
-		\cline{1-2}
-	\end{tabular}	
-\end{rSection}
-%\begin{rSection}{Interests \& Hobbies}
-%	\begin{rSubsection}{}{}{}{}
-%		\item Playing Guitar
-%		\item Anatomy Drawing \em\& Sketching
-%		\item CG Art
-%		\item Solving Puzzle
-%		\item Chess
-%		\item Reading Novels
-%		\item Knitting
-%		\item Web Developing
-%		\\\\\\\\\\\\\\\\\\\\\\
-%	\end{rSubsection}
-%\end{rSection}
+%\input{Parts/MastersTransciptOfRecords.tex}
+%\input{Parts/CurrentPosition.tex}
 \begin{rSection}{References}
-%	\hspace*{+6em}
-	\begin{tabular}{ @{} >{}l @{\hspace{6ex}} >{\em}l }
-		\bfseries Dr. K. Nedaiasl  \\
-		\cline{1-2} \\
-		Job & Supervisor \\
-		Email & nedaiasl@iasbs.ac.ir, knedaiasl85@gmail.com \\
-		Phone & (+98)~$\cdot$~24~$\cdot$~3315~$\cdot$~5053\\
-		Address & IASBS, math department
-		\\\cline{1-2}\\
-	\end{tabular}
-	%\nedaiipic{images/nedaiasl}\\
-		
-%	\hspace*{+6em}
-%	\begin{tabular}{ @{} >{}l @{\hspace{6ex}} >{\em}l }
-%	
-%		\bfseries Dr. H. Saberinajafi  \\
-%		\cline{1-2} \\
-%		
-%		Job & Associate professor of Applied Mathematics \\
-%		Email & in@un.out \\
-%		Phone & (+98)~$\cdot$~123~$\cdot$~456~$\cdot$~7890\\
-%		Address & Guilan University, Math department
-%		\\\cline{1-2}\\
-%	\end{tabular}
-%	\saberipic{images/najafi}\\	
+	\centering ``Upon request.''
+%	\input{Parts/References.tex}
 \end{rSection}
+%\input{Parts/AdditionalInformations.tex}
+%\input{Parts/SampleThesis.tex}
 
-%\begin{rSection}{Experience}
-
-%	\begin{rSubsection}{ZarrinSoft, Group}{October 2010 - Present}{Web Developer}{Guilan, IR}
-%		\item back end  : Django - Laravel 
-%		\item front end : Vue - Sass 
-%	\end{rSubsection}
-
-%\end{rSection}
 
 \end{document}

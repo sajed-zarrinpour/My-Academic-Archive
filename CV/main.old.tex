@@ -1,0 +1,394 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+
+\documentclass{resume} % Use the custom resume.cls style
+
+%\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+
+\usepackage{graphicx}
+\usepackage{adjustbox}
+
+\usepackage{booktabs}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
+%\usepackage[T1]{fontenc}
+\usepackage{tikz}
+\usepackage[nodayofweek]{datetime}
+
+\usepackage{enumerate}
+\definecolor{white}{RGB}{255,255,255}
+\definecolor{gray}{HTML}{4D4D4D}
+\definecolor{maingray}{HTML}{B9B9B9}
+
+\newcommand\skills[1]{ 
+	\begin{tikzpicture}
+	\foreach [count=\i] \x/\y in {#1}{
+		\draw[fill=maingray,maingray] (0,\i) rectangle (6,\i+0.4);
+		\draw[fill=white,gray](0,\i) rectangle (\y,\i+0.4);
+		%\node[ right] at (0,\i+0.4) {\x};
+	}
+	\end{tikzpicture}
+}
+
+\name{Sajed N. ZarinPour} % Your name
+\address{office 5034, Math Department, IASBS \\ Zanjan, Zanjan Province, Iran} % Your address
+%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
+\address{(+98)~$\cdot$~938~$\cdot$~536~$\cdot$~8208 \\ sa.zarrinpour@iasbs.ac.ir \\ samim56b@gmail.com} % Your phone number and email
+
+\begin{document}
+%\profilepic{images/me}
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{cSection}{Cover Letter}
+	
+%	\years{Subject: }{\scriptsize ERC-funded PhD scholarship
+%Announcement}\\
+	
+	
+	
+%	\vspace*{1.5em}
+	
+%	\small
+%	Dear Selection Committee, \vspace*{0.5em}
+	
+%	I am Sajed Zarinpour, a master student at the Institute for Advanced Studies in Basic Sciences, Zanjan, Iran. 
+%	I am writing in response to your Ph.D. position vacancies at \textbf{University of Stuttgart}, Germany. 
+%	I believe the position \textit{Soft tissue Robotics} is well suited for me due to my experiences in my previous studies and also it fulfills my future goals.\\
+%	As a bit about my background, fascinated by modeling the real world phenomenons, I've always wanted to find my way to model real-life situations. Combine numerical methods and neural networks seem very promising for me to conquer challenges towards modeling real-world problems. Specifically, by going further in modeling the breast deformation to do patient-specific modeling in clinical procedures to help doctors to diagnose and cure patients. To achieve that, I had to bring uncertainty in my equations, forming my master thesis \textit{Solving Partial Differential Equations With Uncertainty Using Neural-Networks}. It was quite a challenge for me to master the process and put things together. I had some computer science and programming background already, throughout the process, I tried to develop my mathematical knowledge as well. I accomplished that in collaboration with my supervisor and my lab mates.\\
+%	I read the project description and \textit{\hyperlink{https://www.str.uni-stuttgart.de/}{IRTG web page}} and I want to continue my research in your group, where I think I can play a part in developing new useful methods. As a graduate student, I believe the international environment plays an important role in developing my career.\\
+	
+	
+%	\vspace*{1em}
+%	Yours Sincerely,\\
+%	\vspace*{0.5em}
+%	Sajed Zarrinpour Nashroudkoli\\
+%	\normalsize
+%	---------------------------------------\\
+%	\tiny\textit{\scriptsize Zanjan, Iran, \today}\normalsize
+	
+%\end{cSection}
+
+%\begin{cSection}{Motivation Letter}
+%	\small
+	%I want to express my interest in the project S3.\\	
+%	I remember the first time that I saw a little disabled girl who got an artificial hand and grabs things with it. I felt poured with joy. The look in her eyes when she could finally grab a cup, which is an insignificant task for us, was something special and pure. That moment I wished from the bottom of my heart that I could be a researcher in that project. \\
+%	I always wanted to help people. Although I didn't know the way. Later, at the end of my first year in master's, I've found that I can help patients who suffer from breast cancer (the same disease that my aunt died from) through patient-specific breast deformation modeling in real-time using the finite element method and neural networks. It requires a firm background in mathematical aspects and machine learning. Thus, I decided to work on the foundation needed in my master's. I am still working on the matter and I had found the work quite pleasing. I decided to continue my research in the health care field. \\
+%	In the winter school \textit{From Biophysical Modeling to Simulation Codes, 2019}, I had acquired a friend from the Graz university who was working on modeling the heart and I've found her work fascinating. In the following year, with the help of my supervisor, I investigated the combination of finite element method and machine learning to solve PDEs with uncertainties. I think I can use that foundation in this project. Because I belive soft tissue robotics most likely considers soft tissue modeling which involves solving PDEs with uncertainties such as tissue elasticity.\\
+	%Though as a bachelor student, I was a bit off, I am quite motivated now. It was because I couldn't find a satisfactory reason for passing classes until I finally met an exceptional teacher Dr. H. Saberinajafi who taught me that mathematics is about explaining the real world around you through mathematical models. Now, I am trying to make what is, in my opinion, the best of use of mathematics; helping people. Hence, I have an outstanding reason to carry on my research.\\ 
+%	I love teamwork, have strong motivations, have strong computer programming and mathematical background, and am eager to make use of new methods to achieve fine results. Hence, I think I am suited for your project.\\
+
+%	\normalfont	
+%\end{cSection}
+
+
+\begin{cSection}{Statement of research}
+	
+	\years{Subject: }{\scriptsize SOR for ERC-funded PhD scholarship
+		Announcement}\\
+	
+	
+	
+	\vspace*{1.5em}	
+	``Can I use Machine learning techniques to enhance solutions obtained from the Finite Element Method?'' \\
+	This simple question opened a long way in my research career. Indeed It has fantastic applications (e.g.\href{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5967816/}{\textcolor{blue}{Concussion classification via deep learning using whole-brain white matter fiber strains}}, \href{https://link.springer.com/chapter/10.1007/3-540-45468-3_189}{\textcolor{blue}{Methods for modeling and predicting mechanical deformations of the breast under external perturbations}}), but I choose to study soft tissue deformations (breast deformations under comparison in particular) in memories of my passed aunt.\\
+	It began by reading literature in the field. I had found that different medical imaging methods exist for breast imaging, which uses different technologies and produces different results (e.g. a lesion may consider healthy in one method and unhealthy in another). So the major contributions that I had found were to combine these imaging strategies to get a single model that can be used to determine the lesion, its location, and its boundaries. In all those papers, one thing was in common: their models were not patient-specific. Hence, I decided to do it patient specific. To this end, I needed to know how to solve PDEs with uncertain coefficients to incorporate patient-specific data, such as elasticity of the body. Thus, my master thesis is entitled `Solving Partial Differential Equations with Uncertainty using Neural Networks'.\\
+	My main interest was to learn mathematical modeling and solving the model numerically. Participating in Iranian-Austrian winter school (2019-details in CV) provided me with a good understanding of mathematical modeling. Now I had a way to incorporate uncertainties in the deformation model. The next interesting subject was to use neural networks to solve PDE models. I went to the computer science department to find help which led to cooperation between the two remarkable researchers, Dr. K. Nedaiasl (my supervisor) and Dr. P. Razaghi (my advisor) from two departments on the matter. I studied different approaches in the literature, such as Deep Ritz Method, Physical Informed Neural Networks, surrogate forward mapping, etc under the supervision of them. I also implement those methods using Python Keras and explore different settings, data normalization methods, and architectures which led to a pre paper that we are currently working on it and we will submit it soon. \\
+	In general, all health care fields related to mathematical modeling is interesting for me. In 2019, I had participated in student presentations at our Institute. There was another participant who was working on Alzheimer's disease. I was interested in her presentation in which, she was working on using stem cells to reproduce lost neurons in neuron loss caused by the disease. The interesting part for me was how the disease develops from amyloid plaques. Later on, I saw a documentary about the process in which the body itself cleans these plaques during the sleep process. I believe it is a very good starting point to study the relationship between the amyloid plaque life cycle and neuron loss progress. Though I  had neither time nor resources to do further research on the matter.\\
+	As a summary of my research background, I had tried to learn mathematical modeling basics and gain further insights into the subject. I also interested to do patient-specific modeling through PDE models with uncertainties at a clinical time using neural networks.\\
+	As for the future, I intended to continue my research on health care fields related to mathematical modeling. Although I didn't choose any specific health care field yet, I developed skills that I believe can be useful in most of them. I will continue my work on the soft tissue deformation until the beginning of my Ph.D. I am eager to work on neuroscience, and I think I can achieve very good results in your foundation.\\	
+	\vspace*{1em}
+	
+	Sajed Zarrinpour Nashroudkoli\\
+	\normalsize
+	---------------------------------------\\
+	\tiny\textit{\scriptsize Guilan, Iran, \today}\normalsize
+	
+\end{cSection}
+
+
+\begin{rSection}{Education}
+
+	\years{2017 -  Present}{\bf Institute for Advanced Studies in Basic Sciences, Iran} \\%\hfill {\em 2017 -  Present} \\ 
+	M.Sc. in Applied Mathematics \smallskip \\
+	Numerical Method for Solving PDEs with Uncertainty Using Neural-Network 
+	
+	\years{2012 - 2017}{\bf University of Guilan, Iran}\\ % \hfill {\em 2012 - 2017} \\ 
+	B.Sc. in Applied Mathematics \smallskip \\
+	Study on GMDH algorithm for Stock Price
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Publications}
+	\years{2017} B.Sc. Graduate Thesis: A Study on Stock Price Modeling Using GMDH Algorithm, Guilan University\\	
+\end{rSection}
+\begin{rSection}{Reaserch \& Interests}	
+	\begin{rSubsection}{}{}{}{}
+		\item Numerical Solving PDEs with Uncertainty
+		\item Neural-Networks \& Deep learning
+		\item Finite Element Method
+		\item Soft Tissue Deformation Modeling
+		\item Medical Imaging
+		\item Breast Cancer
+	\end{rSubsection}	
+\end{rSection}
+%\begin{rSection}{Relevant Courses Passed}	
+%	\begin{rSubsection}{}{}{}{}
+%		\item An Introduction to Numerical Solving of Partial Differential Equations.
+%		\item An Introduction to Numerical Solving of Integral Equations.
+%		\item Finite Element Method.\\\\
+%	\end{rSubsection}	
+%\end{rSection}
+\begin{rSection}{Relevant Schools \& Conferences}	
+	\begin{rSubsection}{}{}{}{}
+		\item \textbf{From Biophysical Modeling to Simulation Codes}, Graz university, Isfahan University of Technology - January 2019
+		\item \textbf{Introduction to Data Science in R}, Institute for Advanced Studies in Basic Sciences - March 2019 %Apple Inc., Stanford University - March 2019
+	\end{rSubsection}
+\end{rSection}
+\begin{rSection}{ Relevant Skills \& experiences} 	
+	\begin{tabular}{@{} >{}l @{} >{\em}l}
+		\bfseries Computer Skills \\
+		 \cline{1-2}\\
+			\textbf{Scientific Programming Languages} & \\ 
+			& \\	
+			Python & \skills{{title/5.5}}\\
+			C++ & \skills{{a/4.5}}\\
+			Julia & \skills{{a/3.5}}\\
+			R&\skills{{a/1.5}}\\
+			\cline{1-2}\\
+			\textbf{Scientific Libraries}&\\
+			& \\	
+		    Numpy&\skills{{a/4.5}}\\ 
+		    Eigen&\skills{{a/3}}\\
+		    Torch&\skills{{a/4.5}}\\
+		    Keras&\skills{{a/4}}\\
+		    \cline{1-2}\\
+			\textbf{Professional Softwares} & \\
+			& \\	
+			FreeFem++&\skills{{a/5}}\\
+			GMSH&\skills{{a/2}}\\
+			NGSolve&\skills{{a/2}}\\
+			\cline{1-2}\\
+			\textbf{Other Skills} &\\
+			& \\	
+			Linux&\skills{{a/6}}\\
+			\latex&\skills{{a/4}}\\
+			vim&\skills{{a/5.5}}\\
+			Blender&\skills{{a/2}}\\
+%		\cline{1-2}\\
+%		\bf Languages\\
+%		\cline{1-2}\\
+%			Persian & Native \\
+%			English & Upper Intermediate  \\
+%			French  & Beginner \\
+%		\cline{1-2}
+	\end{tabular}
+\pagebreak
+	\textbf{English Self Assessment} According to : \href{https://europass.cedefop.europa.eu/resources/european-language-levels-cefr}{\textcolor{blue}{European language levels - Self Assessment Grid}},\\\\
+	\begin{tabular}{@{}|c|c|c|c|c@{}}
+		\toprule
+		\multicolumn{2}{|c|}{Understanding} & \multicolumn{2}{c|}{Speaking}          & Writing                 \\ \midrule
+		Listening         & Reading         & Spoken interaction & Spoken production & \multicolumn{1}{c|}{}   \\ \midrule
+		C1                & B2              & C1                 & C1                & \multicolumn{1}{c|}{C1} \\ \bottomrule
+	\end{tabular}
+    \\\tiny Levels: A1 and A2: Basic user - B1 and B2: Independent user - C1 and C2: Proficient user \normalfont \\ 
+
+\end{rSection}
+%\begin{rSection}{Interests \& Hobbies}
+%	\begin{rSubsection}{}{}{}{}
+%		\item Playing Guitar
+%		\item Anatomy Drawing \em\& Sketching
+%		\item CG Art
+%		\item Solving Puzzle
+%		\item Chess
+%		\item Reading Novels
+%		\item Knitting
+%		\item Web Developing
+%		\\\\\\\\\\\\\\\\\\\\\\
+%	\end{rSubsection}
+%\end{rSection}
+
+\begin{cSection}{Bachelor Transcripts of Records}
+	** Converted to
+	\href{https://apps.unive.it/common2/file/download/destinazioni_erasmus/5a9e7b1fa49c0}{\textcolor{blue}{Universit\"{a}t Hamburg grading System}} using  \href{https://www.uni-hamburg.de/en/campuscenter/bewerbung/international/studium-mit-abschluss/anerkennung-auslaendischer-schulbildung/notenumrechner.html}{\textcolor{blue}{Bavarian formula}} given that our highest grade is 20 and our lowest passing grade is 10 in Bs.C.\\
+	\begin{tabular}{ @{} l l l}
+		&&\\
+	\textbf{Name} & \textbf{Iranian Grade} & \textbf{Hamburg Grade}
+	\\\cline{1-3}\\
+	**General Courses** &&\\
+	‫‪Fundamentals of Physics I & 18.50 & 1.4\\ %10101106 & 
+	Fundamentals of Physics I (experimental) & 13.7 & 2.8\\ %10101131 & 
+	Fundamentals of Physics II & 15.5 & 2.3 \\ %10101107 & 
+	Fundamentals of Physics II (experimental) & 11.25 & 3.6 \\ %10101132 & 
+	
+	Principles of Mathematics & 13.5 & 2.9\\ %10101108 & 
+	
+	Calculus I & 12.75 & 3.1 \\ %10101101 & 
+	Calculus II & 10 & 4 \\ %10101102 & 
+	Calculus III & 11 & 3.7 \\%10101103 & 
+	\cline{1-3}\\
+	
+	**Pure Mathematics**&&\\
+	Introduction to Mathematical Analysis & 16 & 2.2 \\ %10101110 & 
+	Mathematical Analysis I & 10.5 & 3.8\\ %10101301 & 
+	Measure Theory & 17.5 & 1.7 \\ %10101334 & 
+	
+	Introduction to Topology & 13 & 3.1\\ %10101309 &  
+	
+	Fundamentals of Algebra & 10.75 & 3.7 \\ %10101303 & 
+	Algebra I & 13 & 3.1 \\ %10101328 & 
+	Logic and Set Theory  & 13.5 & 2.9\\ %10101311 **General Courses** &&\\
+	Discrete Mathematics & 13.25 & 3\\ %10101302 & 
+	Graph Theory & 15 & 2.5 \\ %10101321 & 
+	\cline{1-3}\\
+	
+	**Applied Mathematics**&&\\
+	Ordinary Differential Equations & 12 & 3.4 \\ %10101104 & 
+	Fundamentals of the Theory of Ordinary Differential Equations & 10 & 4\\ %10101308 & 
+	Partial Differential Equations & 15.5 & 2.3 \\ %10101307 & 
+	Linear Algebra & 10 & 4\\ %10101109 & 
+	
+	Linear Programming & 16.5 & 2\\ %10101305 & 
+	Introduction to Control Theory & 17 & 1.9 \\ %10101380 & 
+	
+	Special Project (* Bs.C. Thesis) & 18 & 1.6\\ %10101217 & 
+	
+	Fundamental of Probability & 10 & 4\\ %10101112 & 
+	Probability Theory & 15.25 & 2.4 \\ %10101306 & 
+	Statistical Methods & 10 & 4 \\ %10101336 & 
+	
+	Numerical Analysis & 18 & 1.6 \\ %10101111 & 
+	Numerical Linear Algebra & 16.5 & 2 \\ %10101304 & 
+	\cline{1-3}\\
+	
+	\end{tabular}
+	\begin{tabular}{ @{} l @{\hspace*{18ex}}>{}l l}
+	\textbf{Name} & \textbf{Iranian Grade} & \textbf{Hamburg Grade}
+		\\\cline{1-3}\\
+		**Computer Programming**&&\\
+		Fundamental of Computer Programming & 16.25 & 2.1\\ %10101105 & 
+		Advanced Programming & 17 & 1.9 \\ %10101333 & 
+		Data Structures and Algorithms & 15.50 & 2.3 \\ %10101429 & 
+		Design and Analysis of Algorithms & 12.5 & 3.2 \\ %10101410 & 
+		
+		Fundamentals of Computation Theory & 18.5 & 1.4\\ %10101402 & 
+		
+		Computer System Architecture & 20 & 1 \\ %10101406 & 
+		Mathematical Softwares & 17.5 & 1.7 \\ %10101322 & 
+	\end{tabular}
+\end{cSection}
+\begin{cSection}{Master Transcripts of Records}
+	** Converted to
+	\href{https://apps.unive.it/common2/file/download/destinazioni_erasmus/5a9e7b1fa49c0}{\textcolor{blue}{Universit\"{a}t Hamburg grading System}} using  \href{https://www.uni-hamburg.de/en/campuscenter/bewerbung/international/studium-mit-abschluss/anerkennung-auslaendischer-schulbildung/notenumrechner.html}{\textcolor{blue}{Bavarian formula}} given that our highest grade is 20 and our lowest passing grade is 12 in Ms.C.\\
+	\begin{tabular}{ @{} >{}l @{\hspace*{3ex}} >{}l @{} >{}l}
+		&&\\
+		\textbf{Name} & \textbf{Iranian Grade} & \textbf{Hamburg Grade}
+		\\\cline{1-3}\\
+		
+		**General Courses** &&\\
+		Real Analysis & 13 & 3.6\\
+		Advanced Linear Programming & 14.75 & 2.9\\
+		
+		Advanced Numerical Analysis I & 12 & 3.4\\
+		Advanced Numerical Analysis II & 15.25 & 2.7\\
+		
+		Advanced Linear Algebra I & 15 & 2.8\\
+		Advanced Numerical Linear Algebra II& 17 & 2.1 \\
+		
+		\cline{1-3}\\
+		**Advanced Courses**&&\\
+		
+		Numerical Methods for Ordinary Differential Equations & 12.25 & 3.9 \\
+		Numerical Methods for Partial Differential Equations I & 16.50 & 2.3\\
+		Numerical Methods for Integral Equations  & 17 & 2.1\\
+		Finite Element Analysis & 18.50 & 1.5\\
+		**Thesis**& &\\
+		Numerical Method for Solving PDEs with\\ Uncertainty Using Neural-Network  &Ongoing& Ongoing
+		
+		
+	\end{tabular}
+\end{cSection}
+
+\begin{rSection}{Current Position}
+
+	\begin{rSubsection}{Institute for Advanced Studies in Basic Sciences}{September 2017 - Present}{Master Student}{Zanjan, IR}
+		\item Study and research on numerical analysis and neural networks under the supervision of Dr. Nedaiasl \& advisory of Dr. Razaghi
+	\end{rSubsection}	
+	%\begin{rSubsection}{ZarrinSoft, Group}{October 2010 - Present}{Web Developer}{Guilan, IR}
+	%	\item back end  : Django - Laravel 
+	%	\item front end : Vue - Sass 
+	%\end{rSubsection}
+	
+\end{rSection}
+
+\begin{rSection}{References}
+	%	\hspace*{+6em}
+	\begin{tabular}{ @{} >{}l @{\hspace{1ex}} >{\em}l }
+		\bfseries Dr. K. Nedaiasl  \\
+		\cline{1-2} \\
+		Job & Assistant Professor of Applied Mathematics \\
+		Email & nedaiasl@iasbs.ac.ir\\
+		Phone & (+98)~$\cdot$~24~$\cdot$~3315~$\cdot$~5053\\
+		Address & IASBS, math department
+		\\\cline{1-2}\\
+	\end{tabular}
+	%\nedaiipic{images/nedaiasl}\\
+
+	%	\hspace*{+6em}
+	\begin{tabular}{ @{} >{}l @{\hspace{1ex}} >{\em}l }
+		\bfseries Dr. P. Razzaghi  \\
+		\cline{1-2} \\
+		Job & Assistant Professor of Computer Science and Information Technology \\
+		Email & p.razzaghi@iasbs.ac.ir \\
+		Phone & (+98)~$\cdot$~24~$\cdot$~3315~$\cdot$3375~\\
+		Address & IASBS, computer science department
+		\\\cline{1-2}\\
+	\end{tabular}
+	%\nedaiipic{images/nedaiasl}\\
+
+
+	%	\hspace*{+6em}
+	%	\begin{tabular}{ @{} >{}l @{\hspace{6ex}} >{\em}l }
+	%	
+	%		\bfseries Dr. H. Saberinajafi  \\
+	%		\cline{1-2} \\
+	%		
+	%		Job & Associate professor of Applied Mathematics \\
+	%		Email & in@un.out \\
+	%		Phone & (+98)~$\cdot$~123~$\cdot$~456~$\cdot$~7890\\
+	%		Address & Guilan University, Math department
+	%		\\\cline{1-2}\\
+	%	\end{tabular}
+	%	\saberipic{images/najafi}\\	
+\end{rSection}
+%\begin{cSection}{Additional Information}
+%	\begin{enumerate}[*]
+%		\item \textbf{Official Records}. According to Islamic Republic of Iran's laws, I cannot afford my official records at the moment. Though, I may be able to provide them till February 2021. Anyhow, I can go through \href{https://www.uni-hamburg.de/en/campuscenter/bewerbung/international/plausibilitaetspruefung.html}{\textcolor{blue}{Plausibility Check Procedure for Refugees Applying without Proof of Higher Education Entrance Eligibility (HZB)}} if needed.
+%		\item \textbf{Certificates}. I had seen your announcement a bit late (25th February) and I was short in time. Hence, as of now, I have no language certificate ready to present to you, but I can get them if necessary. Also, my transcript of records of bachelor and master degree is self translated and are unofficial. I believe I can provide more proper versions of them later.
+%	\end{enumerate}
+%\end{cSection}
+
+\end{document}

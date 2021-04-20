@@ -124,6 +124,19 @@
   \end{list}
 }
 
+% Defines the cSection environment for the large sections within the CV
+\newenvironment{cSection}[1]{ % 1 input argument - section name
+	\sectionskip
+	\centering{\MakeUppercase{\bf #1}}
+	\sectionlineskip
+	\hrule % Horizontal line
+	\begin{list}{}{ % List for each individual item in the section
+			\setlength{\leftmargin}{1.5em} % Margin within the section
+		}
+		\item[]
+	}{
+	\end{list}
+}
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE FORMATTING
 %----------------------------------------------------------------------------------------
