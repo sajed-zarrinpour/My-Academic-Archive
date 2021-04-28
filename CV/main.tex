@@ -35,12 +35,25 @@
 \usepackage{tikz}
 \usepackage[nodayofweek]{datetime}
 
+
+%spiderweb
+%\usepackage[utf8]{inputenc} 
+%\usepackage[T1]{fontenc}
+%\usepackage[upright]{fourier} 
+%\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{tkz-kiviat,numprint,fullpage} 
+\usetikzlibrary{arrows}
+%\thispagestyle{empty}
+%--
+
 \usepackage{pdfpages}
 
 \usepackage{enumerate}
 \definecolor{white}{RGB}{255,255,255}
 \definecolor{gray}{HTML}{4D4D4D}
 \definecolor{maingray}{HTML}{B9B9B9}
+
+ 
 
 \newcommand\skills[1]{ 
 	\begin{tikzpicture}
@@ -72,18 +85,20 @@
 \input{Parts/ResearchAndInterests.tex}
 %\input{Parts/RelevantCourses.tex}
 \input{Parts/SchoolsAndConferences.tex}
+\newpage
 \input{Parts/Skills.tex}
+\newpage
+%\input{Parts/personalityTraits.tex}
 %\input{Parts/HobiesAndInterests.tex}
 %\clearpage \newpage
 %\input{Parts/BachelorTranscriptOfRecords.tex}
-
 %\input{Parts/MastersTransciptOfRecords.tex}
 %\input{Parts/CurrentPosition.tex}
 \begin{rSection}{References}
-	\centering ``Upon request.''
-%	\input{Parts/References.tex}
+%	\centering ``Upon request.''
+	\input{Parts/References.tex}
 \end{rSection}
-%\input{Parts/AdditionalInformations.tex}
+\input{Parts/AdditionalInformations.tex}
 %\input{Parts/SampleThesis.tex}
 
 
